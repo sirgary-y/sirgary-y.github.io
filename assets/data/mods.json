@@ -156,7 +156,7 @@
     ]
   },
   {
-    "id": "emerald-buy-pokemon",
+    "id": "pokemon-emerald-buy",
     "name": {
       "en": "Buy Pokemon in Emerald",
       "es": "Comprar Pokemon en Esmeralda"
@@ -178,17 +178,17 @@
         "Reto"
       ]
     },
-    "thumbnail": "assets/mods/emerald-buy-pokemon/thumbnail.png",
+    "thumbnail": "assets/mods/pokemon-emerald-buy/thumbnail.png",
     "releaseDate": "2026-04-19",
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/emerald-buy-pokemon/emerald-buy-pokemon.zip"
+        "url": "assets/mods/pokemon-emerald-buy/pokemon-emerald-buy.zip"
       }
     ]
   },
   {
-    "id": "emerald-steal-pokemon",
+    "id": "pokemon-emerald-steal",
     "name": {
       "en": "Steal Pokemon in Emerald",
       "es": "Robar Pokemon en Esmeralda"
@@ -210,12 +210,140 @@
         "Reto"
       ]
     },
-    "thumbnail": "assets/mods/emerald-steal-pokemon/thumbnail.jpg",
+    "thumbnail": "assets/mods/pokemon-emerald-steal/thumbnail.jpg",
     "releaseDate": "2026-04-19",
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/emerald-steal-pokemon/emerald-steal-pokemon.zip"
+        "url": "assets/mods/pokemon-emerald-steal/pokemon-emerald-steal.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-bdsp-xamorlocke",
+    "name": {
+      "en": "Xamorlocke in Brilliant Diamond and Shining Pearl",
+      "es": "Xamorlocke en Diamante Brillante y Perla Reluciente"
+    },
+    "game": "Pokemon Brilliant Diamond and Shining Pearl",
+    "description": {
+      "en": "Custom ROM for the Xamorlocke challenge by YouTuber Xamork.",
+      "es": "ROM custom para el reto Xamorlocke del YouTuber Xamork."
+    },
+    "tags": {
+      "en": [
+        "Content",
+        "Pokemon",
+        "Challenge"
+      ],
+      "es": [
+        "Contenido",
+        "Pokemon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-bdsp-xamorlocke/thumbnail.jpg",
+    "releaseDate": "2026-04-19",
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-bdsp-xamorlocke/pokemon-bdsp-xamorlocke.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-bsdp-randomizer",
+    "name": {
+      "en": "Randomizer in Brilliant Diamond and Shining Pearl",
+      "es": "Randomizer en Diamante Brillante y Perla Reluciente"
+    },
+    "game": "Pokemon Brilliant Diamond and Shining Pearl",
+    "description": {
+      "en": "Probably one of the first randomizers for Pokémon BDSP.",
+      "es": "Probablemente uno de los primeros randomizadores de Pokémon BDSP."
+    },
+    "tags": {
+      "en": [
+        "Content",
+        "Pokemon",
+        "Challenge"
+      ],
+      "es": [
+        "Contenido",
+        "Pokemon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-bdsp-randomizer/thumbnail.jpg",
+    "releaseDate": "2026-04-19",
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-bdsp-randomizer/pokemon-bdsp-randomizer.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-frlg-poison",
+    "name": {
+      "en": "Always Poisoned Pokémon in FireRed and LeafGreen",
+      "es": "Pokémon Siempre Envenenados en Rojo Fuego y Verde Hoja"
+    },
+    "game": "Pokemon FireRed and LeafGreen",
+    "description": {
+      "en": "In this challenge, your Pokémon will always be poisoned, losing health every few steps and in every battle.",
+      "es": "En este reto tus Pokémon siempre estarán envenenados, perdiendo vida cada pocos pasos y en todos los combates."
+    },
+    "tags": {
+      "en": [
+        "Content",
+        "Pokemon",
+        "Challenge"
+      ],
+      "es": [
+        "Contenido",
+        "Pokemon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-frlg-poison/thumbnail.jpg",
+    "releaseDate": "2026-04-19",
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-frlg-poison/pokemon-frlg-poison.zip"
+      }
+    ]
+  },
+  {
+    "id": "ratchet-bolt-timer",
+    "name": {
+      "en": "Bolts in Ratchet & Clank 1",
+      "es": "Temporizador de Guitones en Ratchet & Clank 1"
+    },
+    "game": "Ratchet & Clank 1",
+    "description": {
+      "en": "You lose bolts every second and if they reach 0, Ratchet dies.",
+      "es": "Pierdes guitones cada segundo y si llegan a 0, Ratchet muere."
+    },
+    "tags": {
+      "en": [
+        "Content",
+        "Ratchet & Clank",
+        "Timer"
+      ],
+      "es": [
+        "Contenido",
+        "Ratchet & Clank",
+        "Temporizador"
+      ]
+    },
+    "thumbnail": "assets/mods/ratchet-bolt-timer/thumbnail.jpg",
+    "releaseDate": "2026-04-19",
+    "downloads": [
+      {
+        "version": "PC",
+        "url": "assets/mods/ratchet-bolt-timer/ratchet-bolt-timer.zip"
       }
     ]
   }
