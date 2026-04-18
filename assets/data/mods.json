@@ -168,12 +168,12 @@
     },
     "tags": {
       "en": [
-        "Content",
+        "Gameplay",
         "Pokemon",
         "Challenge"
       ],
       "es": [
-        "Contenido",
+        "Gameplay",
         "Pokemon",
         "Reto"
       ]
@@ -200,12 +200,12 @@
     },
     "tags": {
       "en": [
-        "Content",
+        "Gameplay",
         "Pokemon",
         "Challenge"
       ],
       "es": [
-        "Contenido",
+        "Gameplay",
         "Pokemon",
         "Reto"
       ]
@@ -242,11 +242,17 @@
     },
     "tags": {
       "en": [
+        "Difficulty",
+        "Textures",
+        "Gameplay",
         "Content",
         "Pokemon",
         "Challenge"
       ],
       "es": [
+        "Dificultad",
+        "Texturas",
+        "Gameplay",
         "Contenido",
         "Pokemon",
         "Reto"
@@ -274,12 +280,12 @@
     },
     "tags": {
       "en": [
-        "Content",
+        "Gameplay",
         "Pokemon",
         "Challenge"
       ],
       "es": [
-        "Contenido",
+        "Gameplay",
         "Pokemon",
         "Reto"
       ]
@@ -306,12 +312,12 @@
     },
     "tags": {
       "en": [
-        "Content",
+        "Gameplay",
         "Pokemon",
         "Challenge"
       ],
       "es": [
-        "Contenido",
+        "Gameplay",
         "Pokemon",
         "Reto"
       ]
@@ -338,12 +344,12 @@
     },
     "tags": {
       "en": [
-        "Content",
+        "Gameplay",
         "Ratchet & Clank",
         "Timer"
       ],
       "es": [
-        "Contenido",
+        "Gameplay",
         "Ratchet & Clank",
         "Temporizador"
       ]
