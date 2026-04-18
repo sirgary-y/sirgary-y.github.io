@@ -212,6 +212,16 @@
     },
     "thumbnail": "assets/mods/pokemon-emerald-steal/thumbnail.jpg",
     "releaseDate": "2026-04-19",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "label": {
+          "en": "Karimero's video",
+          "es": "Vídeo de Karimero"
+        }
+      }
+    ],
     "downloads": [
       {
         "version": "GBA",

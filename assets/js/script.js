@@ -94,8 +94,22 @@ document.addEventListener("DOMContentLoaded", () => {
             const tagsHtml = tArr.map(tag => `<span class="tag">${tag}</span>`).join('');
             const dlText = window.i18nStore && window.i18nStore['btn.download'] ? window.i18nStore['btn.download'] : 'Download';
             const downloadsHtml = mod.downloads.map(dl => 
-                `<a href="${dl.url}" class="dl-btn">⬇ ${dlText} ${dl.version}</a>`
+                `<a href="${dl.url}" class="dl-btn"><i class='bx bx-download'></i> ${dlText} ${dl.version}</a>`
             ).join('');
+
+            let showcasesHtml = '';
+            if (mod.showcases && Array.isArray(mod.showcases)) {
+                showcasesHtml = mod.showcases.map(sc => {
+                    let scLabel = '';
+                    if (sc.label) scLabel = sc.label[lang] || sc.label.en || sc.label;
+                    if (typeof scLabel !== 'string') scLabel = 'Watch';
+                    
+                    const isVideo = sc.type === 'youtube' || sc.type === 'video';
+                    const tintClass = isVideo ? ' video-tint' : '';
+                    const iconClass = sc.type === 'youtube' ? 'bxl-youtube' : (sc.type === 'twitch' ? 'bxl-twitch' : 'bx-link-external');
+                    return `<a href="${sc.url}" class="dl-btn${tintClass}" target="_blank" rel="noopener noreferrer"><i class='bx ${iconClass}'></i> ${scLabel}</a>`;
+                }).join('');
+            }
 
             return `
                 <article class="mod-card">
@@ -106,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="mod-tags">${tagsHtml}</div>
                         <p class="mod-desc">${mDesc}</p>
                         <div class="mod-downloads">
+                            ${showcasesHtml}
                             ${downloadsHtml}
                         </div>
                     </div>

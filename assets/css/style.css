@@ -212,6 +212,22 @@ body {
     text-shadow: 0 0 10px rgba(197, 179, 88, 0.4);
 }
 
+.dl-btn:hover {
+    background-color: rgba(197, 179, 88, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dl-btn.video-tint {
+    border-color: rgba(220, 53, 69, 0.5);
+    color: #ff6b6b;
+}
+
+.dl-btn.video-tint:hover {
+    background-color: rgba(220, 53, 69, 0.15);
+    text-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+}
+
 .lang-btn.active {
     color: var(--gold-light);
     text-shadow: 0 0 15px rgba(197, 179, 88, 0.8);
