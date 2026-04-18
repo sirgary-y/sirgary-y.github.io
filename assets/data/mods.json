@@ -1,0 +1,81 @@
+[
+  {
+    "id": "skyrim-magic-overhaul",
+    "name": "Arcane Mastery Overhaul",
+    "game": "Skyrim",
+    "description": "Completely revamps the magic system adding 50+ new spells, new visual effects, and a balanced progression system.",
+    "tags": ["Gameplay", "Overhaul", "Magic"],
+    "thumbnail": "https://picsum.photos/seed/skyrim-magic/400/250",
+    "releaseDate": "2025-02-15",
+    "downloads": [
+      {
+        "version": "Legendary Edition",
+        "url": "#"
+      },
+      {
+        "version": "Special Edition",
+        "url": "#"
+      }
+    ]
+  },
+  {
+    "id": "fallout-4-4k-textures",
+    "name": "Wasteland 4K Textures",
+    "game": "Fallout 4",
+    "description": "A comprehensive high-resolution texture pack that replaces environmental textures to 4K resolution.",
+    "tags": ["Graphics", "Textures"],
+    "thumbnail": "https://picsum.photos/seed/fo4-textures/400/250",
+    "releaseDate": "2024-11-01",
+    "downloads": [
+      {
+        "version": "v2.0 (English)",
+        "url": "assets/mods/fallout-4-4k-textures/mod-files.zip"
+      }
+    ]
+  },
+  {
+    "id": "witcher-combat-rebalance",
+    "name": "Lethal Combat Rebalance",
+    "game": "The Witcher 3",
+    "description": "Makes combat faster, deadlier, and more reliant on dodging and parrying. Enemies hit harder, but so do you.",
+    "tags": ["Gameplay", "Combat"],
+    "thumbnail": "https://picsum.photos/seed/witcher-combat/400/250",
+    "releaseDate": "2026-01-10",
+    "downloads": [
+      {
+        "version": "Next-Gen v1.5",
+        "url": "assets/mods/witcher-combat-rebalance/witcher-combat-nextgen.zip"
+      }
+    ]
+  },
+  {
+    "id": "cyberpunk-hud-neon",
+    "name": "Neon Immersive HUD",
+    "game": "Cyberpunk 2077",
+    "description": "Customizable HUD elements with dynamic neon glow effects based on in-game time and health status.",
+    "tags": ["UI", "Immersion"],
+    "thumbnail": "https://picsum.photos/seed/cyber-hud/400/250",
+    "releaseDate": "2025-08-22",
+    "downloads": [
+      {
+        "version": "Standard",
+        "url": "assets/mods/cyberpunk-hud-neon/cyber-hud.zip"
+      }
+    ]
+  },
+  {
+    "id": "stardew-valley-expanded-crops",
+    "name": "Mystic Crops Expansion",
+    "game": "Stardew Valley",
+    "description": "Adds 20 new supernatural crops, new recipes, and a new magical merchant to the town.",
+    "tags": ["Content", "Farming"],
+    "thumbnail": "https://picsum.photos/seed/stardew-crops/400/250",
+    "releaseDate": "2024-05-30",
+    "downloads": [
+      {
+        "version": "PC",
+        "url": "assets/mods/stardew-valley-expanded-crops/stardew-crops.zip"
+      }
+    ]
+  }
+]

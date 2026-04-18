@@ -1,0 +1,597 @@
+/* Custom Properties & Reset */
+:root {
+    --bg-void: #060b09; /* Deep, murky oceanic/abyssal black-green */
+    --bg-murk: #0b1a16; /* Deep sea */
+    --bg-accent: #112a23; /* Lighter deep-sea accent */
+    --card-bg: #0b1210; /* Very dark slate */
+    --gold-primary: #C5B358; /* Antique gold / tarnished */
+    --gold-light: #e3d386;
+    --brass: #8a733f;
+    --text-primary: #dcdcd3; /* Aged paper white */
+    --text-secondary: #7f918a; /* Desaturated teal */
+    --shadow-deep: rgba(0, 0, 0, 0.8);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-void);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Background - Animated cosmic mist */
+.lovecraft-bg {
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    z-index: -1;
+    background-color: var(--bg-void);
+    overflow: hidden;
+}
+
+.lovecraft-bg::after {
+    content: '';
+    position: absolute;
+    width: 150vw; height: 150vh;
+    bottom: -30%; right: -30%;
+    background: radial-gradient(circle at center, rgba(11, 26, 22, 0.8) 0%, transparent 60%);
+    opacity: 0.6;
+    filter: blur(60px);
+    animation: cosmicDrift3 22s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+.cosmic-web {
+    position: absolute;
+    width: 150vw; height: 150vh;
+    top: -25%; left: -25%;
+    background: radial-gradient(circle at center, var(--bg-murk) 0%, transparent 60%);
+    opacity: 0.9;
+    filter: blur(50px);
+    animation: cosmicDrift1 14s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+.eldritch-dust {
+    position: absolute;
+    width: 130vw; height: 130vh;
+    top: -10%; left: -10%;
+    background: radial-gradient(circle at center, var(--bg-accent) 0%, transparent 70%);
+    opacity: 0.7;
+    filter: blur(45px);
+    animation: cosmicDrift2 18s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+
+@keyframes cosmicDrift1 {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(8%, 12%) scale(1.15); }
+}
+@keyframes cosmicDrift2 {
+    0% { transform: translate(15%, -10%) scale(1.1); }
+    100% { transform: translate(-5%, 15%) scale(0.95); }
+}
+@keyframes cosmicDrift3 {
+    0% { transform: translate(-10%, 15%) scale(0.9); }
+    100% { transform: translate(15%, -10%) scale(1.1); }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- Hero Banner --- */
+.hero-banner {
+    text-align: center;
+    padding: 5rem 1rem 3rem;
+    position: relative;
+    background: linear-gradient(180deg, rgba(6, 11, 9, 0.9) 0%, transparent 100%);
+    border-bottom: 2px solid var(--brass);
+    box-shadow: 0 5px 40px var(--shadow-deep);
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(11, 26, 22, 0.4);
+    border: 1px solid var(--brass);
+    padding: 3rem 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: inset 0 0 60px rgba(0,0,0,0.9), 0 15px 30px var(--shadow-deep);
+    position: relative;
+    border-radius: 4px;
+    backdrop-filter: blur(5px);
+}
+
+/* Corner banner ornaments */
+.header-inner::before, .header-inner::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--gold-primary);
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(197, 179, 88, 0.2);
+}
+.header-inner::before {
+    top: -5px; left: -5px; border-right: none; border-bottom: none;
+}
+.header-inner::after {
+    bottom: -5px; right: -5px; border-left: none; border-top: none;
+}
+
+/* Redesigned minimal ornaments */
+.deco-ornament {
+    width: 100%;
+    max-width: 400px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-primary), transparent);
+    position: relative;
+    margin: 2rem 0;
+}
+
+.deco-ornament::before {
+    content: '◈';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: var(--gold-primary);
+    font-size: 1.2rem;
+    background: #08110d; /* Matching banner inner */
+    padding: 0 15px;
+}
+
+.logo {
+    font-family: 'Limelight', cursive;
+    font-size: 4.2rem;
+    color: var(--gold-primary);
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    animation: eldritchPulse 6s ease-in-out infinite alternate;
+}
+
+@keyframes eldritchPulse {
+    0% { 
+        text-shadow: 2px 2px 0px var(--bg-accent), 4px 4px 10px rgba(0,0,0,0.9);
+        filter: drop-shadow(0 0 5px rgba(197, 179, 88, 0));
+    }
+    100% { 
+        text-shadow: 0px 0px 15px rgba(197, 179, 88, 0.5), 0px 0px 30px rgba(197, 179, 88, 0.2), 2px 2px 0px var(--bg-accent);
+        filter: drop-shadow(0 0 10px rgba(197, 179, 88, 0.3));
+    }
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+/* Social Bar */
+.social-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: rgba(11, 18, 16, 0.8);
+    padding: 1rem 2.5rem;
+    border: 1px solid var(--brass);
+    border-radius: 2px;
+    box-shadow: 0 5px 15px var(--shadow-deep);
+}
+
+.social-bar a {
+    color: var(--gold-primary);
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.social-bar a:hover {
+    color: var(--gold-light);
+    transform: translateY(-2px);
+    text-shadow: 0 0 10px rgba(197, 179, 88, 0.4);
+}
+
+.social-divider {
+    color: var(--brass);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.contact-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    gap: 0.5rem;
+}
+
+/* --- Deco Panels --- */
+.deco-panel {
+    background: var(--card-bg);
+    border: 1px solid var(--brass);
+    box-shadow: inset 0 0 30px rgba(0,0,0,0.8), 0 10px 30px var(--shadow-deep);
+    position: relative;
+    padding: 2.5rem;
+}
+
+/* Elegant geometric corners */
+.deco-panel::before, .deco-panel::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--gold-primary);
+    pointer-events: none;
+}
+.deco-panel::before { top: 6px; left: 6px; border-right: none; border-bottom: none; }
+.deco-panel::after { bottom: 6px; right: 6px; border-left: none; border-top: none; }
+
+/* --- Main Content & Controls --- */
+main {
+    flex: 1;
+    padding: 4rem 0;
+}
+
+.controls-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper {
+    flex: 1;
+    min-width: 250px;
+}
+
+.search-icon, .filter-icon {
+    position: absolute;
+    left: 15px;
+    color: var(--gold-primary);
+    font-size: 1.3rem;
+    z-index: 2;
+}
+
+input, select {
+    width: 100%;
+    padding: 14px 20px 14px 45px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--brass);
+    color: var(--gold-primary);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border-radius: 0;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: var(--gold-light);
+    box-shadow: inset 0 0 10px rgba(197, 179, 88, 0.2);
+}
+
+select {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+.filters-wrapper {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+select option {
+    background: var(--bg-void);
+    color: var(--gold-primary);
+}
+
+/* --- Mods Grid --- */
+.mods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 3rem;
+}
+
+.loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    font-size: 1.5rem;
+    color: var(--brass);
+    padding: 2rem;
+    letter-spacing: 2px;
+}
+
+/* --- Mod Card --- */
+.mod-card {
+    background: var(--card-bg);
+    border: 1px solid var(--brass);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.8), 0 10px 20px var(--shadow-deep);
+    transition: all 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 15px;
+}
+
+.mod-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--gold-primary);
+    box-shadow: inset 0 0 30px rgba(197, 179, 88, 0.1), 0 15px 30px var(--shadow-deep);
+}
+
+.mod-card-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 1px solid var(--brass);
+    /* Graded/faded look, NO weird hues */
+    filter: grayscale(80%) sepia(20%) brightness(0.7) contrast(1.2);
+    transition: filter 0.5s ease;
+}
+
+.mod-card:hover .mod-card-img {
+    /* Pure natural color on hover */
+    filter: grayscale(0%) sepia(0%) brightness(1) contrast(1.1);
+}
+
+.mod-card-content {
+    padding: 1.5rem 0.5rem 0.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.mod-game {
+    font-family: 'Limelight', cursive;
+    font-size: 0.8rem;
+    color: var(--gold-primary);
+    letter-spacing: 2.5px;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.mod-title {
+    font-family: 'Limelight', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    color: var(--text-primary);
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.mod-desc {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex: 1;
+}
+
+.mod-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    font-size: 0.7rem;
+    padding: 4px 10px;
+    background: transparent;
+    border: 1px solid var(--brass);
+    color: var(--gold-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.mod-downloads {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: auto;
+}
+
+.dl-btn {
+    text-decoration: none;
+    text-align: center;
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--brass);
+    padding: 12px 15px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.dl-btn:hover {
+    background: var(--gold-primary);
+    color: var(--card-bg);
+    border-color: var(--gold-light);
+}
+
+/* --- Decorative Static Pages Container --- */
+.page-content {
+    background: var(--card-bg);
+    border: 1px solid var(--brass);
+    padding: 3.5rem;
+    line-height: 1.8;
+}
+
+.page-content h2 {
+    font-family: 'Limelight', cursive;
+    color: var(--gold-primary);
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.page-content p {
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--gold-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.back-btn:hover {
+    color: var(--gold-light);
+    transform: translateX(-5px);
+}
+
+/* --- Footer --- */
+.main-footer {
+    margin-top: 4rem;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: -15px;
+    z-index: 2;
+}
+
+.footer-brand h3 {
+    font-family: 'Limelight', cursive;
+    font-size: 2rem;
+    color: var(--gold-primary);
+    letter-spacing: 4px;
+    margin-bottom: 1rem;
+}
+
+.footer-brand p {
+    color: var(--text-secondary);
+    max-width: 300px;
+    line-height: 1.6;
+}
+
+.footer-links h4 {
+    font-family: 'Limelight', cursive;
+    color: var(--brass);
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    color: var(--gold-primary);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 3rem 1rem 1.5rem;
+    background: #020403; /* Base void green for footer */
+    border-top: 1px solid var(--brass);
+    color: var(--text-secondary);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+/* Drifting Dust Overlay */
+body::after {
+    content: '';
+    position: fixed;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    z-index: -1;
+    pointer-events: none;
+    background-image: 
+        radial-gradient(1.5px 1.5px at 10% 20%, rgba(197, 179, 88, 0.6) 100%, transparent),
+        radial-gradient(1px 1px at 30% 40%, rgba(197, 179, 88, 0.4) 100%, transparent),
+        radial-gradient(2px 2px at 60% 70%, rgba(197, 179, 88, 0.5) 100%, transparent),
+        radial-gradient(1.5px 1.5px at 80% 30%, rgba(197, 179, 88, 0.8) 100%, transparent),
+        radial-gradient(1px 1px at 90% 80%, rgba(197, 179, 88, 0.3) 100%, transparent),
+        radial-gradient(2px 2px at 20% 90%, rgba(197, 179, 88, 0.7) 100%, transparent);
+    background-size: 150px 150px;
+    animation: starDrift 60s linear infinite;
+    opacity: 0.6;
+}
+
+@keyframes starDrift {
+    0% { transform: translateY(0) rotate(0deg); }
+    100% { transform: translateY(150px) rotate(5deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo { font-size: 2.8rem; }
+    .controls-section { flex-direction: column; align-items: stretch; }
+    .filters-wrapper { flex-direction: column; }
+    .social-bar { flex-direction: column; }
+    .social-divider { display: none; }
+}
