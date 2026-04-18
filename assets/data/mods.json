@@ -11,14 +11,28 @@
       "es": "Renueva completamente el sistema de magia añadiendo más de 50 hechizos nuevos, nuevos efectos visuales y un sistema de progresión equilibrado."
     },
     "tags": {
-      "en": ["Gameplay", "Overhaul", "Magic"],
-      "es": ["Jugabilidad", "Revisión", "Magia"]
+      "en": [
+        "Gameplay",
+        "Overhaul",
+        "Magic"
+      ],
+      "es": [
+        "Jugabilidad",
+        "Revisión",
+        "Magia"
+      ]
     },
     "thumbnail": "https://picsum.photos/seed/skyrim-magic/400/250",
     "releaseDate": "2025-02-15",
     "downloads": [
-      {"version": "Legendary Edition", "url": "#"},
-      {"version": "Special Edition", "url": "#"}
+      {
+        "version": "Legendary Edition",
+        "url": "#"
+      },
+      {
+        "version": "Special Edition",
+        "url": "#"
+      }
     ]
   },
   {
@@ -33,13 +47,22 @@
       "es": "Un paquete completo de texturas de alta resolución que reemplaza las texturas ambientales a resolución 4K."
     },
     "tags": {
-      "en": ["Graphics", "Textures"],
-      "es": ["Gráficos", "Texturas"]
+      "en": [
+        "Graphics",
+        "Textures"
+      ],
+      "es": [
+        "Gráficos",
+        "Texturas"
+      ]
     },
     "thumbnail": "https://picsum.photos/seed/fo4-textures/400/250",
     "releaseDate": "2024-11-01",
     "downloads": [
-      {"version": "v2.0", "url": "assets/mods/fallout-4-4k-textures/mod-files.zip"}
+      {
+        "version": "v2.0",
+        "url": "assets/mods/fallout-4-4k-textures/mod-files.zip"
+      }
     ]
   },
   {
@@ -54,13 +77,22 @@
       "es": "Hace que el combate sea más rápido, mortífero y dependa más de esquivar y parar. Los enemigos golpean más fuerte, pero tú también."
     },
     "tags": {
-      "en": ["Gameplay", "Combat"],
-      "es": ["Jugabilidad", "Combate"]
+      "en": [
+        "Gameplay",
+        "Combat"
+      ],
+      "es": [
+        "Jugabilidad",
+        "Combate"
+      ]
     },
     "thumbnail": "https://picsum.photos/seed/witcher-combat/400/250",
     "releaseDate": "2026-01-10",
     "downloads": [
-      {"version": "Next-Gen v1.5", "url": "assets/mods/witcher-combat-rebalance/witcher-combat-nextgen.zip"}
+      {
+        "version": "Next-Gen v1.5",
+        "url": "assets/mods/witcher-combat-rebalance/witcher-combat-nextgen.zip"
+      }
     ]
   },
   {
@@ -75,13 +107,22 @@
       "es": "Elementos del HUD personalizables con efectos de brillo de neón dinámicos basados en la hora del juego y el estado de salud."
     },
     "tags": {
-      "en": ["UI", "Immersion"],
-      "es": ["Interfaz", "Inmersión"]
+      "en": [
+        "UI",
+        "Immersion"
+      ],
+      "es": [
+        "Interfaz",
+        "Inmersión"
+      ]
     },
     "thumbnail": "https://picsum.photos/seed/cyber-hud/400/250",
     "releaseDate": "2025-08-22",
     "downloads": [
-      {"version": "Standard", "url": "assets/mods/cyberpunk-hud-neon/cyber-hud.zip"}
+      {
+        "version": "Standard",
+        "url": "assets/mods/cyberpunk-hud-neon/cyber-hud.zip"
+      }
     ]
   },
   {
@@ -96,13 +137,86 @@
       "es": "Añade 20 nuevos cultivos sobrenaturales, nuevas recetas y un nuevo mercader mágico al pueblo."
     },
     "tags": {
-      "en": ["Content", "Farming"],
-      "es": ["Contenido", "Agricultura"]
+      "en": [
+        "Content",
+        "Farming"
+      ],
+      "es": [
+        "Contenido",
+        "Agricultura"
+      ]
     },
     "thumbnail": "https://picsum.photos/seed/stardew-crops/400/250",
     "releaseDate": "2024-05-30",
     "downloads": [
-      {"version": "PC", "url": "assets/mods/stardew-valley-expanded-crops/stardew-crops.zip"}
+      {
+        "version": "PC",
+        "url": "assets/mods/stardew-valley-expanded-crops/stardew-crops.zip"
+      }
+    ]
+  },
+  {
+    "id": "emerald-buy-pokemon",
+    "name": {
+      "en": "Buy Pokemon in Emerald",
+      "es": "Comprar Pokemon en Esmeralda"
+    },
+    "game": "Pokemon Emerald",
+    "description": {
+      "en": "The only way to get Pokémon is to buy them in stores.",
+      "es": "La única manera de conseguir Pokémon es comprándolos en las tiendas."
+    },
+    "tags": {
+      "en": [
+        "Content",
+        "Pokemon",
+        "Challenge"
+      ],
+      "es": [
+        "Contenido",
+        "Pokemon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/emerald-buy-pokemon/emerald-buy-pokemon.png",
+    "releaseDate": "2026-04-19",
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/emerald-buy-pokemon/emerald-buy-pokemon.zip"
+      }
+    ]
+  },
+  {
+    "id": "emerald-steal-pokemon",
+    "name": {
+      "en": "Steal Pokemon in Emerald",
+      "es": "Robar Pokemon en Esmeralda"
+    },
+    "game": "Pokemon Emerald",
+    "description": {
+      "en": "Every time you defeat a trainer, your team swaps with theirs.",
+      "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo."
+    },
+    "tags": {
+      "en": [
+        "Content",
+        "Pokemon",
+        "Challenge"
+      ],
+      "es": [
+        "Contenido",
+        "Pokemon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/emerald-steal-pokemon/emerald-steal-pokemon.jpg",
+    "releaseDate": "2026-04-19",
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/emerald-steal-pokemon/emerald-steal-pokemon.zip"
+      }
     ]
   }
 ]
