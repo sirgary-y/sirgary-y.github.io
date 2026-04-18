@@ -15,18 +15,23 @@
     
     <header class="hero-banner">
         <div class="container header-inner">
-            <h1 class="logo">Inquiries</h1>
-            <p class="subtitle">Questions & Answers</p>
+            <h1 class="logo" data-i18n="footer.faq">Inquiries (FAQ)</h1>
+            <p class="subtitle">Frequently Asked Questions</p>
         </div>
     </header>
     
     <main class="container" style="padding-top: 3rem;">
-        <a href="../index.html" class="back-btn"><i class='bx bx-arrow-back'></i> Return to Home</a>
+        <a href="../index.html" class="back-btn"><i class='bx bx-arrow-back'></i> <span data-i18n="btn.home">Return to Home</span></a>
         <section class="page-content deco-panel">
-            <h2>Frequently Asked Questions</h2>
-            <p><strong>Q: Are these modifications free?</strong><br>A: Indeed. Sir Gary believes art should be accessible to all patrons of taste.</p>
-            <p><strong>Q: How do I install them?</strong><br>A: Each exhibition piece comes with an elegant parchment of instructions in its downloaded archive folder.</p>
+            <h2 data-i18n="faq.title">Inquiries</h2>
+            <p data-i18n="faq.q1" style="color: var(--gold-primary); font-weight: bold;">Q: Are these modifications safe?</p>
+            <p data-i18n="faq.a1">A: Every modification is thoroughly tested for stability.</p>
+            
+            <p data-i18n="faq.q2" style="color: var(--gold-primary); font-weight: bold; margin-top: 2rem;">Q: Do you take requests?</p>
+            <p data-i18n="faq.a2">A: Sir Gary's inspiration follows its own course. Requests are generally ignored.</p>
         </section>
     </main>
+
+    <script src="../assets/js/i18n.js"></script>
 </body>
 </html>

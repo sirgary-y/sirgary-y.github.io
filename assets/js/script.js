@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
             renderMods();
         } catch (error) {
             console.error('Error fetching mods:', error);
-            modsGrid.innerHTML = `<div class="no-results">The abyssal archives refused to open. Please try again later.</div>`;
+            const msg = window.i18nStore && window.i18nStore['no.fetch'] ? window.i18nStore['no.fetch'] : 'The abyssal archives refused to open.';
+            modsGrid.innerHTML = `<div class="no-results" data-i18n="no.fetch">${msg}</div>`;
         }
     }
 
@@ -30,7 +31,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Filter
         let filteredMods = modsData.filter(mod => {
-            const searchSource = (mod.name + ' ' + mod.description + ' ' + mod.tags.join(' ')).toLowerCase();
+            const lang = window.activeLang || 'en';
+            let mName = mod.name[lang] || mod.name.en || mod.name || '';
+            if (typeof mName !== 'string') mName = '';
+            mName = mName.toLowerCase();
+            
+            let mDesc = mod.description[lang] || mod.description.en || mod.description || '';
+            if (typeof mDesc !== 'string') mDesc = '';
+            mDesc = mDesc.toLowerCase();
+
+            let tArr = mod.tags[lang] || mod.tags.en || mod.tags || [];
+            if (!Array.isArray(tArr)) tArr = [];
+            const mTags = tArr.join(' ').toLowerCase();
+
+            const searchSource = mName + ' ' + mDesc + ' ' + mTags;
             const matchesSearch = searchSource.includes(searchTerm);
             const matchesGame = gameFilter === 'All' ? true : mod.game === gameFilter;
             return matchesSearch && matchesGame;
@@ -38,42 +52,59 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Sort
         filteredMods.sort((a, b) => {
+            const lang = window.activeLang || 'en';
+            const aName = (a.name[lang] || a.name.en || a.name);
+            const bName = (b.name[lang] || b.name.en || b.name);
+
             if (sortValue === 'newest') {
                 return new Date(b.releaseDate) - new Date(a.releaseDate);
             } else if (sortValue === 'oldest') {
                 return new Date(a.releaseDate) - new Date(b.releaseDate);
             } else if (sortValue === 'name-asc') {
-                return a.name.localeCompare(b.name);
+                return aName.localeCompare(bName);
             } else if (sortValue === 'name-desc') {
-                return b.name.localeCompare(a.name);
+                return bName.localeCompare(aName);
             }
             return 0;
         });
 
         // Create HTML Output
         if (filteredMods.length === 0) {
+            const noResTxt = window.i18nStore && window.i18nStore['no.results'] ? window.i18nStore['no.results'] : "No artifacts unearthed matching your criteria.";
             modsGrid.innerHTML = `
                 <div class="no-results">
-                    <p>No artifacts unearthed matching your criteria.</p>
+                    <p data-i18n="no.results">${noResTxt}</p>
                 </div>
             `;
             return;
         }
 
         const html = filteredMods.map(mod => {
-            const tagsHtml = mod.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+            const lang = window.activeLang || 'en';
+            
+            let mName = mod.name[lang] || mod.name.en || mod.name || '';
+            if (typeof mName !== 'string') mName = 'Unknown Mod';
+            
+            let mDesc = mod.description[lang] || mod.description.en || mod.description || '';
+            if (typeof mDesc !== 'string') mDesc = '';
+            
+            let tArr = mod.tags[lang] || mod.tags.en || mod.tags || [];
+            if (!Array.isArray(tArr)) tArr = [];
+
+            const tagsHtml = tArr.map(tag => `<span class="tag">${tag}</span>`).join('');
+            const dlText = window.i18nStore && window.i18nStore['btn.download'] ? window.i18nStore['btn.download'] : 'Download';
             const downloadsHtml = mod.downloads.map(dl => 
-                `<a href="${dl.url}" class="dl-btn">⬇ Download ${dl.version}</a>`
+                `<a href="${dl.url}" class="dl-btn">⬇ ${dlText} ${dl.version}</a>`
             ).join('');
 
             return `
                 <article class="mod-card">
-                    <img src="${mod.thumbnail}" alt="Thumbnail for ${mod.name}" class="mod-card-img" loading="lazy">
+                    <img src="${mod.thumbnail}" alt="Thumbnail for ${mName}" class="mod-card-img" loading="lazy">
                     <div class="mod-card-content">
                         <span class="mod-game">${mod.game}</span>
-                        <h2 class="mod-title">${mod.name}</h2>
+                        <h2 class="mod-title">${mName}</h2>
                         <div class="mod-tags">${tagsHtml}</div>
-                        <p class="mod-desc">${mod.description}</p>
+                        <p class="mod-desc">${mDesc}</p>
                         <div class="mod-downloads">
                             ${downloadsHtml}
                         </div>
@@ -95,6 +126,9 @@ document.addEventListener("DOMContentLoaded", () => {
     searchInput.addEventListener('input', renderMods);
     sortOrderSelect.addEventListener('change', renderMods);
     gameFilterSelect.addEventListener('change', renderMods);
+    
+    // Listen to i18n language change events to re-render the grid
+    document.addEventListener('languageChanged', renderMods);
 
     // Initial Fetch
     fetchMods();

@@ -212,6 +212,13 @@ body {
     text-shadow: 0 0 10px rgba(197, 179, 88, 0.4);
 }
 
+.lang-btn.active {
+    color: var(--gold-light);
+    text-shadow: 0 0 15px rgba(197, 179, 88, 0.8);
+    border-bottom: 2px solid var(--gold-light);
+    padding-bottom: 2px;
+}
+
 .social-divider {
     color: var(--brass);
     font-size: 1.5rem;

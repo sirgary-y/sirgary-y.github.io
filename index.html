@@ -20,15 +20,23 @@
         <div class="container header-inner">
             <div class="deco-ornament top-ornament"></div>
             <h1 class="logo">Sir Gary's Mods</h1>
-            <p class="subtitle">A Curated Collection of Eldritch Modifications</p>
+            <p class="subtitle" data-i18n="nav.subtitle">A Curated Collection of Eldritch Modifications</p>
             
             <nav class="social-bar">
+                <a href="#" class="lang-btn" data-lang="en" style="font-size:1rem; font-family:'Montserrat', sans-serif; font-weight:600; display: flex; align-items: center; gap: 6px;">
+                    <img src="https://flagcdn.com/us.svg" alt="English" width="20" style="border-radius: 2px; box-shadow: 0 0 2px rgba(0,0,0,0.5); pointer-events: none;"> EN
+                </a>
+                <span class="social-divider" style="font-size:1rem; margin:0 5px;">/</span>
+                <a href="#" class="lang-btn" data-lang="es" style="font-size:1rem; font-family:'Montserrat', sans-serif; font-weight:600; display: flex; align-items: center; gap: 6px;">
+                    <img src="https://flagcdn.com/es.svg" alt="Español" width="20" style="border-radius: 2px; box-shadow: 0 0 2px rgba(0,0,0,0.5); pointer-events: none;"> ES
+                </a>
+                <span class="social-divider" style="margin-left:1rem;">|</span>
                 <a href="#" title="Twitter"><i class='bx bxl-twitter'></i></a>
                 <a href="#" title="YouTube"><i class='bx bxl-youtube'></i></a>
                 <a href="#" title="Twitch"><i class='bx bxl-twitch'></i></a>
                 <a href="#" title="Discord"><i class='bx bxl-discord-alt'></i></a>
                 <span class="social-divider">|</span>
-                <a href="mailto:contact@sirgarymods.example" class="contact-link"><i class='bx bx-envelope'></i> Contact</a>
+                <a href="mailto:contact@sirgarymods.example" class="contact-link"><i class='bx bx-envelope'></i> <span data-i18n="nav.contact">Contact</span></a>
             </nav>
             <div class="deco-ornament bottom-ornament"></div>
         </div>
@@ -39,14 +47,14 @@
         <section class="controls-section deco-panel">
             <div class="search-wrapper input-group">
                 <i class='bx bx-search search-icon'></i>
-                <input type="text" id="search-input" placeholder="Search mods by name..." aria-label="Search mods">
+                <input type="text" id="search-input" data-i18n="search.placeholder" placeholder="Search mods by name..." aria-label="Search mods">
             </div>
             
             <div class="filters-wrapper">
                 <div class="input-group">
                     <i class='bx bx-joystick filter-icon'></i>
                     <select id="game-filter" aria-label="Filter by Game">
-                        <option value="All">All Games</option>
+                        <option value="All" data-i18n="filter.allGames">All Games</option>
                         <option value="Skyrim">Skyrim</option>
                         <option value="Fallout 4">Fallout 4</option>
                         <option value="The Witcher 3">The Witcher 3</option>
@@ -58,17 +66,17 @@
                 <div class="input-group">
                     <i class='bx bx-sort filter-icon'></i>
                     <select id="sort-order" aria-label="Sort Orders">
-                        <option value="newest">Release Date: Newest First</option>
-                        <option value="oldest">Release Date: Oldest First</option>
-                        <option value="name-asc">Name: A-Z</option>
-                        <option value="name-desc">Name: Z-A</option>
+                        <option value="newest" data-i18n="sort.newest">Release Date: Newest First</option>
+                        <option value="oldest" data-i18n="sort.oldest">Release Date: Oldest First</option>
+                        <option value="name-asc" data-i18n="sort.nameAsc">Name: A-Z</option>
+                        <option value="name-desc" data-i18n="sort.nameDesc">Name: Z-A</option>
                     </select>
                 </div>
             </div>
         </section>
 
         <section id="mods-grid" class="mods-grid" aria-live="polite">
-            <div class="loading"><i class='bx bx-loader-alt bx-spin'></i> Loading artifacts...</div>
+            <div class="loading"><i class='bx bx-loader-alt bx-spin'></i> <span data-i18n="loading.msg">Loading artifacts...</span></div>
         </section>
     </main>
 
@@ -76,24 +84,24 @@
         <div class="container footer-content deco-panel">
             <div class="footer-brand">
                 <h3>S. Gary</h3>
-                <p>Establishing the gold standard for high-society gaming modifications.</p>
+                <p data-i18n="footer.brandSub">Establishing the gold standard for high-society gaming modifications.</p>
             </div>
             <div class="footer-links">
-                <h4>Information</h4>
+                <h4 data-i18n="footer.info">Information</h4>
                 <ul>
-                    <!-- Updated routing to pages/ -->
-                    <li><a href="pages/about.html"><i class='bx bx-info-circle'></i> The Creator</a></li>
-                    <li><a href="pages/faq.html"><i class='bx bx-question-mark'></i> Inquiries (FAQ)</a></li>
-                    <li><a href="pages/support.html"><i class='bx bx-support'></i> Assistance</a></li>
-                    <li><a href="pages/terms.html"><i class='bx bx-file'></i> Conditions of Use</a></li>
+                    <li><a href="pages/about.html"><i class='bx bx-info-circle'></i> <span data-i18n="footer.about">The Creator</span></a></li>
+                    <li><a href="pages/faq.html"><i class='bx bx-question-mark'></i> <span data-i18n="footer.faq">Inquiries (FAQ)</span></a></li>
+                    <li><a href="pages/support.html"><i class='bx bx-support'></i> <span data-i18n="footer.support">Assistance</span></a></li>
+                    <li><a href="pages/terms.html"><i class='bx bx-file'></i> <span data-i18n="footer.terms">Conditions of Use</span></a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Sir Gary. Masterfully Engineered in the Abyss.</p>
+            <p data-i18n="footer.copyright">&copy; 2026 Sir Gary. Masterfully Engineered in the Abyss.</p>
         </div>
     </footer>
 
+    <script src="assets/js/i18n.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
