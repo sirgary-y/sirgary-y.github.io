@@ -2,10 +2,10 @@
   {
     "id": "pokemon-emerald-buy",
     "name": {
-      "en": "Buy Pokemon in Emerald",
-      "es": "Comprar Pokemon en Esmeralda"
+      "en": "Buy Pokémon in Emerald",
+      "es": "Comprar Pokémon en Esmeralda"
     },
-    "game": "Pokemon Emerald",
+    "game": "Pokémon",
     "description": {
       "en": "The only way to get Pokémon is to buy them in stores.",
       "es": "La única manera de conseguir Pokémon es comprándolos en las tiendas."
@@ -39,7 +39,7 @@
       "en": "Steal Pokemon in Emerald",
       "es": "Robar Pokemon en Esmeralda"
     },
-    "game": "Pokemon Emerald",
+    "game": "Pokémon",
     "description": {
       "en": "Every time you defeat a trainer, your team swaps with theirs. Developed for PokéTuber Karimero.",
       "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo. Desarrollado para el PokéTuber Karimero."
@@ -47,7 +47,7 @@
     "tags": {
       "en": [
         "Gameplay",
-        "Pokemon",
+        "Pokémon",
         "Challenge",
         "Strategy"
       ],
@@ -83,7 +83,7 @@
       "en": "Xamorlocke in Brilliant Diamond and Shining Pearl",
       "es": "Xamorlocke en Diamante Brillante y Perla Reluciente"
     },
-    "game": "Pokemon Brilliant Diamond and Shining Pearl",
+    "game": "Pokémon",
     "description": {
       "en": "Custom ROM for the Xamorlocke challenge by YouTuber Xamork.",
       "es": "ROM custom para el reto Xamorlocke del YouTuber Xamork."
@@ -131,7 +131,7 @@
       "en": "Randomizer in Brilliant Diamond and Shining Pearl",
       "es": "Randomizer en Diamante Brillante y Perla Reluciente"
     },
-    "game": "Pokemon Brilliant Diamond and Shining Pearl",
+    "game": "Pokémon",
     "description": {
       "en": "Probably one of the first randomizers for Pokémon BDSP.",
       "es": "Probablemente uno de los primeros randomizadores de Pokémon BDSP."
@@ -163,7 +163,7 @@
       "en": "Always Poisoned Pokémon in FireRed and LeafGreen",
       "es": "Pokémon Siempre Envenenados en Rojo Fuego y Verde Hoja"
     },
-    "game": "Pokemon FireRed and LeafGreen",
+    "game": "Pokémon",
     "description": {
       "en": "In this challenge, your Pokémon will always be poisoned, losing health every few steps and in every battle.",
       "es": "En este reto tus Pokémon siempre estarán envenenados, perdiendo vida cada pocos pasos y en todos los combates."
@@ -195,7 +195,7 @@
       "en": "Bolts in Ratchet & Clank 1",
       "es": "Temporizador de Guitones en Ratchet & Clank 1"
     },
-    "game": "Ratchet & Clank 1",
+    "game": "Ratchet & Clank",
     "description": {
       "en": "You lose bolts every second and if they reach 0, Ratchet dies.",
       "es": "Pierdes guitones cada segundo y si llegan a 0, Ratchet muere."
