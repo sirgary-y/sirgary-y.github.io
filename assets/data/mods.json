@@ -1,161 +1,5 @@
 [
   {
-    "id": "skyrim-magic-overhaul",
-    "name": {
-      "en": "Arcane Mastery Overhaul",
-      "es": "Mejora de Dominio Arcano"
-    },
-    "game": "Skyrim",
-    "description": {
-      "en": "Completely revamps the magic system adding 50+ new spells, new visual effects, and a balanced progression system.",
-      "es": "Renueva completamente el sistema de magia añadiendo más de 50 hechizos nuevos, nuevos efectos visuales y un sistema de progresión equilibrado."
-    },
-    "tags": {
-      "en": [
-        "Gameplay",
-        "Overhaul",
-        "Magic"
-      ],
-      "es": [
-        "Jugabilidad",
-        "Revisión",
-        "Magia"
-      ]
-    },
-    "thumbnail": "https://picsum.photos/seed/skyrim-magic/400/250",
-    "releaseDate": "2025-02-15",
-    "downloads": [
-      {
-        "version": "Legendary Edition",
-        "url": "#"
-      },
-      {
-        "version": "Special Edition",
-        "url": "#"
-      }
-    ]
-  },
-  {
-    "id": "fallout-4-4k-textures",
-    "name": {
-      "en": "Wasteland 4K Textures",
-      "es": "Texturas 4K del Yermo"
-    },
-    "game": "Fallout 4",
-    "description": {
-      "en": "A comprehensive high-resolution texture pack that replaces environmental textures to 4K resolution.",
-      "es": "Un paquete completo de texturas de alta resolución que reemplaza las texturas ambientales a resolución 4K."
-    },
-    "tags": {
-      "en": [
-        "Graphics",
-        "Textures"
-      ],
-      "es": [
-        "Gráficos",
-        "Texturas"
-      ]
-    },
-    "thumbnail": "https://picsum.photos/seed/fo4-textures/400/250",
-    "releaseDate": "2024-11-01",
-    "downloads": [
-      {
-        "version": "v2.0",
-        "url": "assets/mods/fallout-4-4k-textures/mod-files.zip"
-      }
-    ]
-  },
-  {
-    "id": "witcher-combat-rebalance",
-    "name": {
-      "en": "Lethal Combat Rebalance",
-      "es": "Reequilibrio de Combate Letal"
-    },
-    "game": "The Witcher 3",
-    "description": {
-      "en": "Makes combat faster, deadlier, and more reliant on dodging and parrying. Enemies hit harder, but so do you.",
-      "es": "Hace que el combate sea más rápido, mortífero y dependa más de esquivar y parar. Los enemigos golpean más fuerte, pero tú también."
-    },
-    "tags": {
-      "en": [
-        "Gameplay",
-        "Combat"
-      ],
-      "es": [
-        "Jugabilidad",
-        "Combate"
-      ]
-    },
-    "thumbnail": "https://picsum.photos/seed/witcher-combat/400/250",
-    "releaseDate": "2026-01-10",
-    "downloads": [
-      {
-        "version": "Next-Gen v1.5",
-        "url": "assets/mods/witcher-combat-rebalance/witcher-combat-nextgen.zip"
-      }
-    ]
-  },
-  {
-    "id": "cyberpunk-hud-neon",
-    "name": {
-      "en": "Neon Immersive HUD",
-      "es": "Inmersión HUD de Neón"
-    },
-    "game": "Cyberpunk 2077",
-    "description": {
-      "en": "Customizable HUD elements with dynamic neon glow effects based on in-game time and health status.",
-      "es": "Elementos del HUD personalizables con efectos de brillo de neón dinámicos basados en la hora del juego y el estado de salud."
-    },
-    "tags": {
-      "en": [
-        "UI",
-        "Immersion"
-      ],
-      "es": [
-        "Interfaz",
-        "Inmersión"
-      ]
-    },
-    "thumbnail": "https://picsum.photos/seed/cyber-hud/400/250",
-    "releaseDate": "2025-08-22",
-    "downloads": [
-      {
-        "version": "Standard",
-        "url": "assets/mods/cyberpunk-hud-neon/cyber-hud.zip"
-      }
-    ]
-  },
-  {
-    "id": "stardew-valley-expanded-crops",
-    "name": {
-      "en": "Mystic Crops Expansion",
-      "es": "Expansión de Cultivos Místicos"
-    },
-    "game": "Stardew Valley",
-    "description": {
-      "en": "Adds 20 new supernatural crops, new recipes, and a new magical merchant to the town.",
-      "es": "Añade 20 nuevos cultivos sobrenaturales, nuevas recetas y un nuevo mercader mágico al pueblo."
-    },
-    "tags": {
-      "en": [
-        "Content",
-        "Farming"
-      ],
-      "es": [
-        "Contenido",
-        "Agricultura"
-      ]
-    },
-    "thumbnail": "https://picsum.photos/seed/stardew-crops/400/250",
-    "releaseDate": "2024-05-30",
-    "downloads": [
-      {
-        "version": "PC",
-        "url": "assets/mods/stardew-valley-expanded-crops/stardew-crops.zip"
-      }
-    ]
-  },
-  {
     "id": "pokemon-emerald-buy",
     "name": {
       "en": "Buy Pokemon in Emerald",
@@ -169,13 +13,15 @@
     "tags": {
       "en": [
         "Gameplay",
-        "Pokemon",
-        "Challenge"
+        "Pokémon",
+        "Challenge",
+        "Resource Management"
       ],
       "es": [
         "Gameplay",
-        "Pokemon",
-        "Reto"
+        "Pokémon",
+        "Reto",
+        "Gestión de Recursos"
       ]
     },
     "thumbnail": "assets/mods/pokemon-emerald-buy/thumbnail.png",
@@ -195,23 +41,25 @@
     },
     "game": "Pokemon Emerald",
     "description": {
-      "en": "Every time you defeat a trainer, your team swaps with theirs.",
-      "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo."
+      "en": "Every time you defeat a trainer, your team swaps with theirs. Developed for PokéTuber Karimero.",
+      "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo. Desarrollado para el PokéTuber Karimero."
     },
     "tags": {
       "en": [
         "Gameplay",
         "Pokemon",
-        "Challenge"
+        "Challenge",
+        "Strategy"
       ],
       "es": [
         "Gameplay",
         "Pokemon",
-        "Reto"
+        "Reto",
+        "Estrategia"
       ]
     },
     "thumbnail": "assets/mods/pokemon-emerald-steal/thumbnail.jpg",
-    "releaseDate": "2026-04-19",
+    "releaseDate": "2022-01-01",
     "showcases": [
       {
         "type": "youtube",
@@ -259,10 +107,20 @@
       ]
     },
     "thumbnail": "assets/mods/pokemon-bdsp-xamorlocke/thumbnail.jpg",
-    "releaseDate": "2026-04-19",
+    "releaseDate": "2022-09-14",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aApd6mdo8Eg&list=PLsQPS3gL3Mho97C4Re9ssJPJU5piSSYpA&index=2",
+        "label": {
+          "en": "Xamork's video",
+          "es": "Vídeo de Xamork"
+        }
+      }
+    ],
     "downloads": [
       {
-        "version": "GBA",
+        "version": "Switch",
         "url": "assets/mods/pokemon-bdsp-xamorlocke/pokemon-bdsp-xamorlocke.zip"
       }
     ]
@@ -355,10 +213,20 @@
       ]
     },
     "thumbnail": "assets/mods/ratchet-bolt-timer/thumbnail.png",
-    "releaseDate": "2026-04-19",
+    "releaseDate": "2022-03-31",
+    "showcases": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/SirGary_y/status/1509298726547996672",
+        "label": {
+          "en": "Mod Demo",
+          "es": "Mod Demo"
+        }
+      }
+    ],
     "downloads": [
       {
-        "version": "PC",
+        "version": "PS3",
         "url": "assets/mods/ratchet-bolt-timer/ratchet-bolt-timer.zip"
       }
     ]
