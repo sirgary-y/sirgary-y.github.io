@@ -13,12 +13,34 @@ document.addEventListener("DOMContentLoaded", () => {
             const response = await fetch('assets/data/mods.json');
             if (!response.ok) throw new Error('Failed to load mods');
             modsData = await response.json();
+            populateGameFilter();
             renderMods();
         } catch (error) {
             console.error('Error fetching mods:', error);
             const msg = window.i18nStore && window.i18nStore['no.fetch'] ? window.i18nStore['no.fetch'] : 'The abyssal archives refused to open.';
             modsGrid.innerHTML = `<div class="no-results" data-i18n="no.fetch">${msg}</div>`;
         }
+    }
+
+    // Populate Game Filter dynamically
+    function populateGameFilter() {
+        const games = [...new Set(modsData.map(mod => mod.game).filter(Boolean))];
+        games.sort((a, b) => a.localeCompare(b));
+        
+        const allGamesOption = gameFilterSelect.querySelector('option[value="All"]');
+        gameFilterSelect.innerHTML = '';
+        if (allGamesOption) {
+            gameFilterSelect.appendChild(allGamesOption);
+        } else {
+            gameFilterSelect.innerHTML = '<option value="All" data-i18n="filter.allGames">All Games</option>';
+        }
+        
+        games.forEach(game => {
+            const option = document.createElement('option');
+            option.value = game;
+            option.textContent = game;
+            gameFilterSelect.appendChild(option);
+        });
     }
 
     // Render Mods to HTML Grid
@@ -91,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let tArr = mod.tags[lang] || mod.tags.en || mod.tags || [];
             if (!Array.isArray(tArr)) tArr = [];
 
-            const tagsHtml = tArr.map(tag => `<span class="tag">${tag}</span>`).join('');
+            const tagsHtml = tArr.map(tag => `<button class="tag" data-tag="${tag}" aria-label="Filter by tag ${tag}">${tag}</button>`).join('');
             const dlText = window.i18nStore && window.i18nStore['btn.download'] ? window.i18nStore['btn.download'] : 'Download';
             const downloadsHtml = mod.downloads.map(dl => 
                 `<a href="${dl.url}" class="dl-btn"><i class='bx bx-download'></i> ${dlText} ${dl.version}</a>`
@@ -141,6 +163,18 @@ document.addEventListener("DOMContentLoaded", () => {
     searchInput.addEventListener('input', renderMods);
     sortOrderSelect.addEventListener('change', renderMods);
     gameFilterSelect.addEventListener('change', renderMods);
+    
+    // Tag Click Delegation
+    modsGrid.addEventListener('click', (e) => {
+        if (e.target.classList.contains('tag')) {
+            const tagValue = e.target.getAttribute('data-tag');
+            if (tagValue) {
+                searchInput.value = tagValue;
+                renderMods();
+                document.querySelector('.controls-section').scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    });
     
     // Listen to i18n language change events to re-render the grid
     document.addEventListener('languageChanged', renderMods);

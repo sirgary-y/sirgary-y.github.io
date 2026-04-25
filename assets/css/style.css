@@ -444,6 +444,15 @@ select option {
     color: var(--gold-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.tag:hover {
+    background: var(--gold-primary);
+    color: var(--card-bg);
+    border-color: var(--gold-light);
 }
 
 .mod-downloads {
