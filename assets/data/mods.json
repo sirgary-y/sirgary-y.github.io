@@ -1,5 +1,297 @@
 [
   {
+    "id": "pokemon-eggmerald",
+    "name": {
+      "en": "Pokémon Eggmerald",
+      "es": "Pokémon Eggmerald"
+    },
+    "game": "Pokémon Emerald",
+    "description": {
+      "en": "Wild Pokémon are random eggs that only display the type of the Pokémon that will hatch from them, and their color pallete. Made for the Pokétuber Andros.",
+      "es": "Los Pokémon salvajes son huevos aleatorios que solo muestran el tipo de Pokémon que nacerá de ellos, y su paleta de colores. Creado para el PokéTuber Andros."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge",
+        "Randomizer"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto",
+        "Aleatorio"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-eggmerald/thumbnail.jpeg",
+    "releaseDate": "2025-07-07",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/PZr8-xCiYVU",
+        "label": {
+          "en": "Andros' video",
+          "es": "Vídeo de Andros"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-eggmerald/pokemon-eggmerald.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-ash-battles",
+    "name": {
+      "en": "Pokémon Ash Battles",
+      "es": "Batallas Pokémon de Ash"
+    },
+    "game": "Pokémon Emerald",
+    "description": {
+      "en": "Fight against Ash's teams from each season of the anime. Made for the Pokétuber Boshtok.",
+      "es": "Pelea contra los equipos de Ash de cada temporada del anime. Creado para el PokéTuber Boshtok."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-ash-battles/thumbnail.jpg",
+    "releaseDate": "2024-11-28",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/pp2p0dhJxNc",
+        "label": {
+          "en": "Boshtok's video",
+          "es": "Vídeo de Boshtok"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-color-change",
+    "name": {
+      "en": "Pokémon Color Change",
+      "es": "Pokémon Cambio de Color"
+    },
+    "game": "Pokémon Emerald",
+    "description": {
+      "en": "All Pokémon have the extra ability Color Change, making them change to the type of the last attack received. Made for the PokéTuber PokéCarlengues.",
+      "es": "Todos los Pokémon tienen de habilidad extra Cambio de Color, haciendo que cambien al tipo del último ataque recibido. Creado para el PokéTuber PokéCarlengues."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-color-change/thumbnail.jpg",
+    "releaseDate": "2021-02-02",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/pp2p0dhJxNc",
+        "label": {
+          "en": "PokéCarlengues' video",
+          "es": "Vídeo de PokéCarlengues"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-color-change/pokemon-color-change.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-russian-rulette",
+    "name": {
+      "en": "Pokémon Russian Rulette",
+      "es": "Pokémon Ruleta Rusa"
+    },
+    "game": "Pokémon Emerald",
+    "description": {
+      "en": "Every time a trainer is defeated, a random Pokémon from your team disappears. Made for the PokéTuber KodiDre.",
+      "es": "Cada vez que un entrenador es derrotado, un Pokémon aleatorio de tu equipo desaparece. Creado para el PokéTuber KodiDre."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-russian-rulette/thumbnail.jpg",
+    "releaseDate": "2025-05-05",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/pp2p0dhJxNc",
+        "label": {
+          "en": "KodiDre's video",
+          "es": "Vídeo de KodiDre"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-russian-rulette/pokemon-russian-rulette.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-platinum-freecamera",
+    "name": {
+      "en": "Pokémon Platinum FreeCamera",
+      "es": "Cámara Libre en Pokémon Platino"
+    },
+    "game": "Pokémon Platinum",
+    "description": {
+      "en": "A simple mod to unlock the camera in Pokémon Platinum, allowing you to explore the Sinnoh region from any angle. Created for the PokéTuber Andros.",
+      "es": "Un simple mod para desbloquear la cámara en Pokémon Platino, permitiéndote explorar la región de Sinnoh desde cualquier ángulo."
+    },
+    "tags": {
+      "en": [
+        "Pokémon",
+        "Freecam"
+      ],
+      "es": [
+        "Pokémon",
+        "Cámara libre"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-platinum-freecamera/thumbnail.jpg",
+    "releaseDate": "TBD",
+    "showcases": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/SirGary_y/status/1782932934263939361",
+        "label": {
+          "en": "Demo",
+          "es": "Demo"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "NDS",
+        "url": "assets/mods/pokemon-platinum-freecamera/pokemon-platinum-freecamera.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-emerald-autobattler",
+    "name": {
+      "en": "Pokémon Emerald Autobattler",
+      "es": "Pokémon Esmeralda Autobattler"
+    },
+    "game": "Pokémon Emerald",
+    "description": {
+      "en": "In this mod the Pokémon will fight by themselves choosing moves depending on their nature, following the rules of the Battle Palace. Created for the PokéTuber Andros.",
+      "es": "En este mod los Pokémon lucharán por sí mismos eligiendo movimientos dependiendo de su naturaleza, siguiendo las reglas del Palacio Batalla. Creado para el PokéTuber Andros."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-emerald-autobattler/thumbnail.jpg",
+    "releaseDate": "TBD",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/O3_Vv3358_s",
+        "label": {
+          "en": "Andros' video",
+          "es": "Vídeo de Andros"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-emerald-autobattler/pokemon-emerald-autobattler.zip"
+      }
+    ]
+  },
+  {
+    "id": "pokemon-emerald-freecamera",
+    "name": {
+      "en": "Pokémon Emerald FreeCamera",
+      "es": "Cámara Libre en Pokémon Esmeralda"
+    },
+    "game": "Pokémon Emerald",
+    "description": {
+      "en": "A simple mod to unlock the camera in Pokémon Emerald, allowing you to explore the Hoenn region from any angle.",
+      "es": "Un simple mod para desbloquear la cámara en Pokémon Esmeralda, permitiéndote explorar la región de Hoenn desde cualquier ángulo."
+    },
+    "tags": {
+      "en": [
+        "Pokémon",
+        "Freecam"
+      ],
+      "es": [
+        "Pokémon",
+        "Cámara libre"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-emerald-freecamera/thumbnail.jpg",
+    "releaseDate": "TBD",
+    "showcases": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/SirGary_y/status/1782932934263939361",
+        "label": {
+          "en": "Demo",
+          "es": "Demo"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-emerald-freecamera/pokemon-emerald-freecamera.zip"
+      }
+    ]
+  },
+  {
     "id": "pokemon-emerald-buy",
     "name": {
       "en": "Buy Pokémon in Emerald",
@@ -165,8 +457,8 @@
     },
     "game": "Pokémon",
     "description": {
-      "en": "In this challenge, your Pokémon will always be poisoned, losing health every few steps and in every battle.",
-      "es": "En este reto tus Pokémon siempre estarán envenenados, perdiendo vida cada pocos pasos y en todos los combates."
+      "en": "In this challenge, your Pokémon will always be poisoned, losing health every few steps and in every battle. After the fourth badge, Pokémon will become badly poisoned.",
+      "es": "En este reto tus Pokémon siempre estarán envenenados, perdiendo vida cada pocos pasos y en todos los combates. A partir de la cuarta medalla el envenenamiento será grave."
     },
     "tags": {
       "en": [
@@ -181,7 +473,7 @@
       ]
     },
     "thumbnail": "assets/mods/pokemon-frlg-poison/thumbnail.png",
-    "releaseDate": "2026-04-19",
+    "releaseDate": "2021-01-29",
     "downloads": [
       {
         "version": "GBA",
