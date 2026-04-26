@@ -321,12 +321,14 @@
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/pokemon-emerald-buy/pokemon-emerald-buy.zip"
+        "url": "assets/mods/pokemon-emerald-buy/pokemon-emerald-buy.zip",
+        "lang": "en"
       }
     ]
   },
   {
     "id": "pokemon-emerald-steal",
+    "featured": true,
     "name": {
       "en": "Steal Pokemon in Emerald",
       "es": "Robar Pokemon en Esmeralda"
@@ -371,6 +373,11 @@
   },
   {
     "id": "pokemon-bdsp-xamorlocke",
+    "status": "updated",
+    "changelog": {
+      "en": "- Fixed minor texture bugs.\n- Increased difficulty curve slightly.",
+      "es": "- Arreglados pequeños bugs de texturas.\n- Aumentada ligeramente la curva de dificultad."
+    },
     "name": {
       "en": "Xamorlocke in Brilliant Diamond and Shining Pearl",
       "es": "Xamorlocke en Diamante Brillante y Perla Reluciente"
@@ -483,6 +490,7 @@
   },
   {
     "id": "ratchet-bolt-timer",
+    "status": "new",
     "name": {
       "en": "Bolts in Ratchet & Clank 1",
       "es": "Temporizador de Guitones en Ratchet & Clank 1"
@@ -522,5 +530,18 @@
         "url": "assets/mods/ratchet-bolt-timer/ratchet-bolt-timer.zip"
       }
     ]
+  },
+  {
+    "id": "pokemon-upcoming-teaser",
+    "status": "teaser",
+    "name": {
+      "en": "Project Unknown",
+      "es": "Proyecto Desconocido"
+    },
+    "teaserText": {
+      "en": "In Development",
+      "es": "En Desarrollo"
+    },
+    "releaseDate": "2027-01-01"
   }
 ]

@@ -69,7 +69,20 @@
                         <option value="name-desc" data-i18n="sort.nameDesc">Name: Z-A</option>
                     </select>
                 </div>
+                
+                <div class="input-group">
+                    <i class='bx bx-layer filter-icon'></i>
+                    <select id="group-by" aria-label="Group By">
+                        <option value="none" data-i18n="group.none">No Grouping</option>
+                        <option value="game" data-i18n="group.game">Group by Game</option>
+                        <option value="year" data-i18n="group.year">Group by Year</option>
+                    </select>
+                </div>
             </div>
+        </section>
+
+        <section id="featured-mod" aria-live="polite">
+            <!-- Featured mod injected here -->
         </section>
 
         <section id="mods-grid" class="mods-grid" aria-live="polite">

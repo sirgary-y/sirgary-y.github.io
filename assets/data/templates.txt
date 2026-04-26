@@ -1,0 +1,99 @@
+This file contains JSON templates for the different types of mod cards you can create.
+Copy the relevant JSON object into the `mods.json` array and fill out the details.
+
+=== 1. NORMAL MOD ===
+Used for standard mods.
+
+{
+  "id": "game-mod-name",
+  "name": {
+    "en": "English Name",
+    "es": "Spanish Name"
+  },
+  "game": "Game Name",
+  "description": {
+    "en": "English Description",
+    "es": "Spanish Description"
+  },
+  "tags": {
+    "en": ["Tag1", "Tag2"],
+    "es": ["Tag1", "Tag2"]
+  },
+  "thumbnail": "assets/mods/game-mod-name/thumbnail.png",
+  "releaseDate": "YYYY-MM-DD",
+  "downloads": [
+    {
+      "version": "v1.0",
+      "url": "assets/mods/game-mod-name/mod.zip",
+      "lang": "en"
+    }
+  ]
+}
+
+=== 2. NEW MOD ===
+Adds a "NEW!" badge to the corner of the card.
+Just add "status": "new" to a normal mod template.
+
+{
+  "id": "game-new-mod",
+  "status": "new",
+  "name": { "en": "New Mod", "es": "Nuevo Mod" },
+  "game": "Game Name",
+  "description": { "en": "Desc", "es": "Desc" },
+  "tags": { "en": ["Tag1"], "es": ["Tag1"] },
+  "thumbnail": "assets/mods/game-new-mod/thumbnail.png",
+  "releaseDate": "YYYY-MM-DD",
+  "downloads": []
+}
+
+=== 3. UPDATED MOD (With Changelog) ===
+Adds an "UPDATED!" badge and a clickable "View Patch Notes" accordion.
+Add "status": "updated" and a "changelog" object.
+
+{
+  "id": "game-updated-mod",
+  "status": "updated",
+  "changelog": {
+    "en": "- Fixed a bug with textures.\n- Added new enemies.",
+    "es": "- Arreglado bug de texturas.\n- Añadidos nuevos enemigos."
+  },
+  "name": { "en": "Updated Mod", "es": "Mod Actualizado" },
+  "game": "Game Name",
+  "description": { "en": "Desc", "es": "Desc" },
+  "tags": { "en": ["Tag1"], "es": ["Tag1"] },
+  "thumbnail": "assets/mods/game-updated-mod/thumbnail.png",
+  "releaseDate": "YYYY-MM-DD",
+  "downloads": []
+}
+
+=== 4. TEASER MOD ===
+Mysterious, glowing card for upcoming mods. Has no downloads.
+Add "status": "teaser" and a "teaserText" property. You only need a title and teaserText.
+
+{
+  "id": "game-upcoming-mod",
+  "status": "teaser",
+  "name": { "en": "Secret Project", "es": "Proyecto Secreto" },
+  "teaserText": {
+    "en": "Coming Late 2026",
+    "es": "A Finales de 2026"
+  },
+  "releaseDate": "2026-12-31"
+}
+
+=== 5. FEATURED MOD ===
+Large, wide cinematic banner at the very top of the page. Only ONE mod should be featured at a time!
+Add "featured": true to any normal, new, or updated mod.
+
+{
+  "id": "game-featured-mod",
+  "featured": true,
+  "status": "new",
+  "name": { "en": "Massive Overhaul", "es": "Overhaul Masivo" },
+  "game": "Game Name",
+  "description": { "en": "Desc", "es": "Desc" },
+  "tags": { "en": ["Tag1"], "es": ["Tag1"] },
+  "thumbnail": "assets/mods/game-featured-mod/thumbnail.png",
+  "releaseDate": "YYYY-MM-DD",
+  "downloads": []
+}
