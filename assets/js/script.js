@@ -5,6 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const gameFilterSelect = document.getElementById('game-filter');
 
     let modsData = [];
+    let searchTimeout;
+
+    // Safe date parser for non-standard dates like "TBD"
+    function parseDate(d) {
+        if (!d || d === 'TBD') return new Date(0);
+        const parsed = new Date(d);
+        return isNaN(parsed) ? new Date(0) : parsed;
+    }
 
     // Fetch the mods data from assets/data/mods.json
     async function fetchMods() {
@@ -83,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let tArr = mod.tags && typeof mod.tags === 'object' ? (mod.tags[lang] || mod.tags.en || []) : (mod.tags || []);
         if (!Array.isArray(tArr)) tArr = [];
 
-        const tagsHtml = tArr.map(tag => `<button class="tag" data-tag="${tag}" aria-label="Filter by tag ${tag}">${tag}</button>`).join('');
+        const tagsHtml = tArr.map(tag => `<button type="button" class="tag" data-tag="${tag}" aria-label="Filter by tag ${tag}">${tag}</button>`).join('');
         
         const dlText = window.i18nStore && window.i18nStore['btn.download'] ? window.i18nStore['btn.download'] : 'Download';
         const downloadsHtml = (mod.downloads || []).map(dl => {
@@ -120,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <article class="featured-mod-container">
                     ${badgeHtml}
                     <div class="featured-label" data-i18n="badge.featured">${featTxt}</div>
-                    <img src="${mod.thumbnail}" alt="Thumbnail for ${mName}" class="mod-card-img" loading="lazy">
+                    <img src="${mod.thumbnail}" alt="Thumbnail for ${mName}" class="mod-card-img" loading="lazy" onerror="this.src='assets/favicon.png'; this.onerror=null;">
                     <div class="mod-card-content">
                         <span class="mod-game">${mod.game}</span>
                         <h2 class="mod-title">${mName}</h2>
@@ -139,7 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return `
             <article class="mod-card">
                 ${badgeHtml}
-                <img src="${mod.thumbnail}" alt="Thumbnail for ${mName}" class="mod-card-img" loading="lazy">
+                <img src="${mod.thumbnail}" alt="Thumbnail for ${mName}" class="mod-card-img" loading="lazy" onerror="this.src='assets/favicon.png'; this.onerror=null;">
                 <div class="mod-card-content">
                     <span class="mod-game">${mod.game}</span>
                     <h2 class="mod-title">${mName}</h2>
@@ -196,9 +204,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const bName = (b.name[lang] || b.name.en || b.name || '');
 
             if (sortValue === 'newest') {
-                return new Date(b.releaseDate || 0) - new Date(a.releaseDate || 0);
+                return parseDate(b.releaseDate) - parseDate(a.releaseDate);
             } else if (sortValue === 'oldest') {
-                return new Date(a.releaseDate || 0) - new Date(b.releaseDate || 0);
+                return parseDate(a.releaseDate) - parseDate(b.releaseDate);
             } else if (sortValue === 'name-asc') {
                 return aName.localeCompare(bName);
             } else if (sortValue === 'name-desc') {
@@ -275,7 +283,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Event Listeners for controls
-    searchInput.addEventListener('input', renderMods);
+    searchInput.addEventListener('input', () => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(renderMods, 250);
+    });
     sortOrderSelect.addEventListener('change', renderMods);
     gameFilterSelect.addEventListener('change', renderMods);
     

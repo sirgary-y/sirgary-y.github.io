@@ -212,11 +212,7 @@ body {
     text-shadow: 0 0 10px rgba(197, 179, 88, 0.4);
 }
 
-.dl-btn:hover {
-    background-color: rgba(197, 179, 88, 0.2);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-}
+
 
 .dl-btn.video-tint {
     border-color: rgba(255, 77, 77, 0.6);
@@ -480,6 +476,8 @@ select option {
     background: var(--gold-primary);
     color: var(--card-bg);
     border-color: var(--gold-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* --- Decorative Static Pages Container --- */
@@ -504,7 +502,7 @@ select option {
 }
 
 .back-btn {
-    display: inline-block;
+    display: flex;
     margin-bottom: 2rem;
     color: var(--gold-primary);
     text-decoration: none;
@@ -512,7 +510,6 @@ select option {
     letter-spacing: 2px;
     font-weight: 600;
     transition: all 0.3s;
-    display: flex;
     align-items: center;
     gap: 0.5rem;
 }
@@ -656,7 +653,7 @@ body::after {
     100% { box-shadow: -2px 2px 20px rgba(197, 179, 88, 0.6); }
 }
 
-/* Shared Teaser Structure */
+/* Teaser Card */
 .mod-card.teaser {
     display: flex;
     justify-content: center;
@@ -665,6 +662,10 @@ body::after {
     position: relative;
     overflow: hidden;
     text-align: center;
+    background: #020a07;
+    border: 2px solid #1abc9c;
+    box-shadow: inset 0 0 50px #000, 0 0 20px rgba(26, 188, 156, 0.2);
+    animation: cyberPulseBorder 3s infinite;
 }
 
 .teaser-content {
@@ -705,15 +706,6 @@ body::after {
     z-index: 1;
 }
 .teaser-particles { z-index: 2; }
-
-/* --- Variant 1: Purple Vortex (teaser-vortex) --- */
-/* --- Final Teaser --- */
-.mod-card.teaser {
-    background: #020a07;
-    border: 2px solid #1abc9c;
-    box-shadow: inset 0 0 50px #000, 0 0 20px rgba(26, 188, 156, 0.2);
-    animation: cyberPulseBorder 3s infinite;
-}
 @keyframes cyberPulseBorder {
     0%, 100% { border-color: #1abc9c; box-shadow: inset 0 0 50px #000, 0 0 20px rgba(26, 188, 156, 0.2); }
     50% { border-color: #ff003c; box-shadow: inset 0 0 50px #000, 0 0 40px rgba(255, 0, 60, 0.6); }
@@ -930,9 +922,45 @@ body::after {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .logo { font-size: 2.8rem; }
+    .logo { font-size: 2.8rem; letter-spacing: 2px; }
+    .header-inner { padding: 2rem 1.5rem; }
     .controls-section { flex-direction: column; align-items: stretch; }
     .filters-wrapper { flex-direction: column; }
     .social-bar { flex-direction: column; }
     .social-divider { display: none; }
+
+    /* Featured banner: stack vertically */
+    .featured-mod-container {
+        flex-direction: column;
+    }
+    .featured-mod-container .mod-card-img {
+        width: 100%;
+        height: 220px;
+        border-right: none;
+        border-bottom: 1px solid var(--brass);
+    }
+    .featured-mod-container .mod-card-content {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    /* Teaser: disable expensive animations */
+    .mod-card.teaser .teaser-particles {
+        display: none;
+    }
+    .mod-card.teaser {
+        animation: none;
+        border-color: #1abc9c;
+        box-shadow: inset 0 0 50px #000, 0 0 20px rgba(26, 188, 156, 0.2);
+    }
+
+    /* Grid safety for very narrow screens */
+    .mods-grid {
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+    }
+
+    /* Disable dust particles overlay */
+    body::after {
+        display: none;
+    }
 }

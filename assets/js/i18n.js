@@ -5,6 +5,7 @@ window.setLanguage = async function(lang) {
     if (lang !== 'en' && lang !== 'es') lang = 'en';
     window.activeLang = lang;
     localStorage.setItem('site_lang', lang);
+    document.documentElement.lang = lang;
     
     // Toggle active state on UI buttons
     const langBtns = document.querySelectorAll('.lang-btn');
@@ -67,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     langBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.preventDefault();
-            window.setLanguage(e.target.dataset.lang);
+            window.setLanguage(e.currentTarget.dataset.lang);
         });
     });
 

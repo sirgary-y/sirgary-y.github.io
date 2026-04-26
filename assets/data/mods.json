@@ -1,5 +1,18 @@
 [
   {
+    "id": "deltarune-freedomcam-teaser",
+    "status": "teaser",
+    "name": {
+      "en": "DeltaRune FreedomCam",
+      "es": "DeltaRune FreedomCam"
+    },
+    "teaserText": {
+      "en": "In Development",
+      "es": "En Desarrollo"
+    },
+    "releaseDate": "2026"
+  },
+  {
     "id": "pokemon-eggmerald",
     "name": {
       "en": "Pokémon Eggmerald",
@@ -530,18 +543,5 @@
         "url": "assets/mods/ratchet-bolt-timer/ratchet-bolt-timer.zip"
       }
     ]
-  },
-  {
-    "id": "pokemon-upcoming-teaser",
-    "status": "teaser",
-    "name": {
-      "en": "Project Unknown",
-      "es": "Proyecto Desconocido"
-    },
-    "teaserText": {
-      "en": "In Development",
-      "es": "En Desarrollo"
-    },
-    "releaseDate": "2027-01-01"
   }
 ]
