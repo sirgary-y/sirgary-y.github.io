@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log("Fetching mods.json from assets...");
             const response = await fetch('assets/data/mods.json');
             if (!response.ok) throw new Error('Failed to load mods');
-            modsData = await response.json();
+            modsData = (await response.json()).filter(mod => !mod.hidden);
             populateGameFilter();
             renderMods();
         } catch (error) {

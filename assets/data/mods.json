@@ -224,6 +224,7 @@
   },
   {
     "id": "pokemon-emerald-autobattler",
+    "hidden": true,
     "name": {
       "en": "Pokémon Emerald Autobattler",
       "es": "Pokémon Esmeralda Autobattler"

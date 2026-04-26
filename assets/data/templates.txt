@@ -97,3 +97,20 @@ Add "featured": true to any normal, new, or updated mod.
   "releaseDate": "YYYY-MM-DD",
   "downloads": []
 }
+
+=== 6. HIDDEN MOD ===
+Hides a mod from the site completely. The mod won't appear in the grid, search, filters, or grouping.
+Useful for preparing cards ahead of time without making them public.
+Add "hidden": true to any mod template. Can be combined with any other type (new, updated, featured, teaser).
+
+{
+  "id": "game-secret-mod",
+  "hidden": true,
+  "name": { "en": "Secret Mod", "es": "Mod Secreto" },
+  "game": "Game Name",
+  "description": { "en": "Desc", "es": "Desc" },
+  "tags": { "en": ["Tag1"], "es": ["Tag1"] },
+  "thumbnail": "assets/mods/game-secret-mod/thumbnail.png",
+  "releaseDate": "YYYY-MM-DD",
+  "downloads": []
+}
