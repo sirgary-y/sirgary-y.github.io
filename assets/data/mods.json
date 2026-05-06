@@ -557,6 +557,50 @@
     ]
   },
   {
+    "id": "ratchet-smol-fragile",
+    "status": "new",
+    "name": {
+      "en": "Ratchet & Clank 1, but Ratchet is Small and Dies in One Hit",
+      "es": "Ratchet & Clank 1, pero Ratchet es Pequeño y Muere de Un Golpe"
+    },
+    "game": "Ratchet & Clank",
+    "description": {
+      "en": "Ratchet has a 10% size and dies in one hit.",
+      "es": "Ratchet tiene un 10% de su tamaño y muere de un solo golpe."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Ratchet & Clank",
+        "Challenge"
+      ],
+      "es": [
+        "Gameplay",
+        "Ratchet & Clank",
+        "Challenge"
+      ]
+    },
+    "thumbnail": "assets/mods/ratchet-smol-fragile/thumbnail.png",
+    "releaseDate": "2023-02-21",
+    "showcases": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/SirGary_y/status/1509298726547996672",
+        "label": {
+          "en": "Mod Demo",
+          "es": "Mod Demo"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "PS3",
+        "url": "assets/mods/ratchet-smol-fragile/ratchet-smol-fragile.zip"
+      }
+    ]
+  },
+
+    {
     "id": "ratchet-bolt-timer",
     "status": "new",
     "name": {
