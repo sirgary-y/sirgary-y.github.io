@@ -779,6 +779,7 @@ body::after {
 
 .featured-mod-container {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 4rem;
     background: var(--card-bg);
     border: 1px solid var(--gold-primary);
@@ -813,8 +814,7 @@ body::after {
 
 .featured-mod-container .mod-card-img {
     width: 60%;
-    min-height: 300px;
-    align-self: stretch;
+    height: 400px;
     object-fit: cover;
     border: none;
     border-right: 1px solid var(--brass);
@@ -823,10 +823,26 @@ body::after {
 
 .featured-mod-container .mod-card-content {
     width: 40%;
-    padding: 3rem;
+    padding: 2.5rem 3rem;
     justify-content: center;
     display: flex;
     flex-direction: column;
+}
+
+.featured-actions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border-top: 1px solid var(--brass);
+}
+
+.featured-actions .dl-btn {
+    flex: 1 1 0;
+    min-width: 150px;
+    border: none;
+    border-right: 1px solid var(--brass);
+    padding: 14px 15px;
 }
 
 .featured-label {
@@ -944,6 +960,13 @@ body::after {
     .featured-mod-container .mod-card-content {
         width: 100%;
         padding: 1.5rem;
+    }
+    .featured-actions {
+        flex-direction: column;
+    }
+    .featured-actions .dl-btn {
+        border-right: none;
+        border-bottom: 1px solid var(--brass);
     }
 
     /* Teaser: disable expensive animations */

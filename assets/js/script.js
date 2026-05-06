@@ -135,10 +135,10 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="mod-tags">${tagsHtml}</div>
                         <p class="mod-desc">${mDesc}</p>
                         ${changelogHtml}
-                        <div class="mod-downloads">
-                            ${showcasesHtml}
-                            ${downloadsHtml}
-                        </div>
+                    </div>
+                    <div class="featured-actions">
+                        ${showcasesHtml}
+                        ${downloadsHtml}
                     </div>
                 </article>
             `;
