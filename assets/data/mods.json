@@ -17,13 +17,13 @@
     "status": "new",
     "featured": true,
     "name": {
-      "en": "Pokémon, but my team gets randomized with every hit",
-      "es": "Pokémon, pero mi equipo se randomiza con cada golpe"
+      "en": "Pokémon, but my Pokémon get Randomized with Every Hit",
+      "es": "Pokémon, pero mis Pokémon se Randomizan con Cada Golpe"
     },
     "game": "Pokémon HeartGold/SoulSilver",
     "description": {
-      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon get randomized with every hit. Made for the Pokétuber Capitán Pokémon.",
-      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon se randomizan cada vez que sufren daño. Creado para el PokéTuber Capitán Pokémon."
+      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. Made for the Pokétuber Capitán Pokémon.",
+      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon cambian cada vez que sufren daño. Creado para el PokéTuber Capitán Pokémon."
     },
     "tags": {
       "en": [
