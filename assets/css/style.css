@@ -823,8 +823,8 @@ body::after {
 
 .featured-mod-container .mod-card-content {
     width: 40%;
-    padding: 2.5rem 3rem;
-    justify-content: center;
+    padding: 1.5rem 2.5rem;
+    justify-content: flex-start;
     display: flex;
     flex-direction: column;
 }
