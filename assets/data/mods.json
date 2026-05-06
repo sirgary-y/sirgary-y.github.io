@@ -22,7 +22,7 @@
     },
     "game": "Pokémon HeartGold/SoulSilver",
     "description": {
-      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. There is a version that also randomizes the moves. Made for the Pokétuber Capitán Pokémon.",
+      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. There is a version that also randomizes the moves. Made for the Pokétuber Capitán Pokémon. TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST",
       "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon cambian cada vez que sufren daño. Hay una versión que también randomiza los movimientos. Creado para el PokéTuber Capitán Pokémon."
     },
     "tags": {
@@ -611,8 +611,7 @@
       }
     ]
   },
-
-    {
+  {
     "id": "ratchet-bolt-timer",
     "status": "new",
     "name": {
