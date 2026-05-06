@@ -22,8 +22,8 @@
     },
     "game": "Pokémon HeartGold/SoulSilver",
     "description": {
-      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. Made for the Pokétuber Capitán Pokémon. There is a version that also randomizes the moves.",
-      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon cambian cada vez que sufren daño. Creado para el PokéTuber Capitán Pokémon. Hay una versión que también randomiza los movimientos."
+      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. There is a version that also randomizes the moves. Made for the Pokétuber Capitán Pokémon.",
+      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon cambian cada vez que sufren daño. Hay una versión que también randomiza los movimientos. Creado para el PokéTuber Capitán Pokémon."
     },
     "tags": {
       "en": [
