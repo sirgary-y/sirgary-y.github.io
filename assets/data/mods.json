@@ -13,6 +13,52 @@
     "releaseDate": "2026"
   },
   {
+    "id": "pokemon-hgss-hitrandomizer",
+    "status": "new",
+    "featured": true,
+    "name": {
+      "en": "Pokémon, but my team gets randomized with every hit",
+      "es": "Pokémon, pero mi equipo se randomiza con cada golpe"
+    },
+    "game": "Pokémon HeartGold/SoulSilver",
+    "description": {
+      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon get randomized with every hit. Made for the Pokétuber Capitán Pokémon.",
+      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon se randomizan cada vez que sufren daño. Creado para el PokéTuber Capitán Pokémon."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge",
+        "Randomizer"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto",
+        "Aleatorio"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-hgss-hitrandomizer/thumbnail.jpeg",
+    "releaseDate": "2026-05-28",
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/PB_zv1ty4Z4",
+        "label": {
+          "en": "Capitán Pokémon's video",
+          "es": "Vídeo de Capitán Pokémon"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "NDS",
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/pokemon-hgss-hitrandomizer.zip"
+      }
+    ]
+  },
+  {
     "id": "pokemon-eggmerald",
     "name": {
       "en": "Pokémon Eggmerald",
@@ -79,7 +125,7 @@
         "Reto"
       ]
     },
-    "thumbnail": "assets/mods/pokemon-ash-battles/thumbnail.jpg",
+    "thumbnail": "assets/mods/pokemon-ash-battles/thumbnail.jpeg",
     "releaseDate": "2024-11-28",
     "showcases": [
       {
@@ -95,6 +141,10 @@
       {
         "version": "GBA",
         "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles.zip"
+      },
+      {
+        "version": "Save",
+        "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles-nds.zip"
       }
     ]
   },
@@ -121,7 +171,7 @@
         "Reto"
       ]
     },
-    "thumbnail": "assets/mods/pokemon-color-change/thumbnail.jpg",
+    "thumbnail": "assets/mods/pokemon-color-change/thumbnail.jpeg",
     "releaseDate": "2021-02-02",
     "showcases": [
       {
@@ -342,7 +392,7 @@
   },
   {
     "id": "pokemon-emerald-steal",
-    "featured": true,
+    "hidden": true,
     "name": {
       "en": "Steal Pokemon in Emerald",
       "es": "Robar Pokemon en Esmeralda"
