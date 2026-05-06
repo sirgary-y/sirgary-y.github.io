@@ -34,6 +34,8 @@
     "faq.a1": "R: Ante cualquier bug puedes escribirme por Twitter, correo o Discord.",
     "faq.q2": "P: ¿Aceptan peticiones?",
     "faq.a2": "R: Sí, mándame un mensaje y consideraré la idea y su complejidad.",
+    "faq.q3": "P: ¿Cómo aplico el parche de un mod de Pokémon?",
+    "faq.a3": "R: Puedes aplicarlo en https://www.marcrobledo.com/RomPatcher.js/. Ten en cuenta que debes usar una ROM de tu propiedad cuyo sha1 coincida con la versión para la que el mod fue diseñado. Si el juego está en inglés la ROM debe ser la de USA, si está completamente en Español será la de ESP.",
     "support.title": "Asistencia",
     "support.p1": "Para fallos estructurales graves, por favor, póngase en contacto con nosotros adjuntando registros detallados del incidente.",
     "terms.title": "Condiciones de Uso",
