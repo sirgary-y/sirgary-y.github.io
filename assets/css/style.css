@@ -813,7 +813,9 @@ body::after {
 
 .featured-mod-container .mod-card-img {
     width: 60%;
-    height: 400px;
+    min-height: 300px;
+    align-self: stretch;
+    object-fit: cover;
     border: none;
     border-right: 1px solid var(--brass);
     filter: none; /* Always colored */
