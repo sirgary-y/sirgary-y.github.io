@@ -569,16 +569,16 @@
     ]
   },
   {
-    "id": "ratchet-smol-fragile",
+    "id": "ratchet-smol",
     "status": "new",
     "name": {
-      "en": "Ratchet & Clank 1, but Ratchet is Small and Dies in One Hit",
-      "es": "Ratchet & Clank 1, pero Ratchet es Pequeño y Muere de Un Golpe"
+      "en": "Ratchet & Clank 1, but Ratchet is Small",
+      "es": "Ratchet & Clank 1, pero Ratchet es Pequeño"
     },
     "game": "Ratchet & Clank",
     "description": {
-      "en": "Ratchet has a 10% size and dies in one hit.",
-      "es": "Ratchet tiene un 10% de su tamaño y muere de un solo golpe."
+      "en": "Ratchet has 10% his size and dies in one hit. For the PS3 version of the game.",
+      "es": "Ratchet tiene un 10% de su tamaño y muere de un solo golpe. Para la versión de PS3 del juego."
     },
     "tags": {
       "en": [
@@ -592,22 +592,12 @@
         "Challenge"
       ]
     },
-    "thumbnail": "assets/mods/ratchet-smol-fragile/thumbnail.png",
+    "thumbnail": "assets/mods/ratchet-smol/thumbnail.png",
     "releaseDate": "2023-02-21",
-    "showcases": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/SirGary_y/status/1509298726547996672",
-        "label": {
-          "en": "Mod Demo",
-          "es": "Mod Demo"
-        }
-      }
-    ],
     "downloads": [
       {
         "version": "PS3",
-        "url": "assets/mods/ratchet-smol-fragile/ratchet-smol-fragile.zip"
+        "url": "assets/mods/ratchet-smol/ratchet-smol.rar"
       }
     ]
   },
@@ -620,8 +610,8 @@
     },
     "game": "Ratchet & Clank",
     "description": {
-      "en": "You lose bolts every second and if they reach 0, Ratchet dies.",
-      "es": "Pierdes guitones cada segundo y si llegan a 0, Ratchet muere."
+      "en": "You lose bolts every second and if they reach 0, Ratchet dies. For the PS3 version of the game.",
+      "es": "Pierdes guitones cada segundo y si llegan a 0, Ratchet muere. Para la versión de PS3 del juego."
     },
     "tags": {
       "en": [
@@ -650,7 +640,7 @@
     "downloads": [
       {
         "version": "PS3",
-        "url": "assets/mods/ratchet-bolt-timer/ratchet-bolt-timer.zip"
+        "url": "assets/mods/ratchet-bolt-timer/ratchet-bolt-timer.rar"
       }
     ]
   }
