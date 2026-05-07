@@ -32,11 +32,26 @@
     "btn.home": "Volver al Inicio",
     "faq.title": "Consultas",
     "faq.items": [
-        { "q": "P: ¿Qué hago si encuentro un bug?", "a": "R: Ante cualquier bug puedes escribirme por Twitter, correo o Discord." },
-        { "q": "P: ¿Aceptan peticiones?", "a": "R: Sí, mándame un mensaje y consideraré la idea y su complejidad." },
-        { "q": "P: ¿Cómo aplico el parche de un mod de Pokémon?", "a": "R: Puedes aplicarlo en <a href=\"https://www.marcrobledo.com/RomPatcher.js/\" target=\"_blank\">RomPatcher.js</a>. Ten en cuenta que debes usar una ROM de tu propiedad cuyo sha1 coincida con la versión para la que el mod fue diseñado. Si el juego está en inglés la ROM debe ser la de USA, si está completamente en Español será la de ESP." },
-        { "q": "P: ¿Cómo aplico el parche de un mod de Ratchet & Clank?", "a": "R: Para aplicar los mods de Ratchet & Clank necesitarás descargar <strong>racman</strong> (<a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\">Descargar</a>) y seguir sus instrucciones para poder usarlo con tu ROM legalmente adquirida de la colección HD de PS3, tanto si los quieres jugar en una PS3 como en el emulador RPCS3. Una vez lo tengas configurado, arrastra la carpeta de mi mod dentro de la carpeta <code>mods</code> de racman en el juego que corresponda. <code>NPEA00385</code> es Ratchet & Clank 1, <code>NPEA00386</code> es Ratchet & Clank 2, <code>NPEA00387</code> es Ratchet & Clank 3 y <code>NPEA00423</code> es Ratchet Gladiator." },
-        { "q": "P: ¿Cómo aplico el parche de un mod de Deltarune?", "a": "R: Para aplicar los mods de Deltarune necesitarás descargar el programa <strong>DeltaPatcher</strong> (<a href=\"https://www.romhacking.net/utilities/704/\" target=\"_blank\">Descargar</a>) y aplicar el parche <code>.xdelta</code> del mod al archivo <code>data.win</code> del capítulo correspondiente. Los archivos <code>data.win</code> de cada capítulo suelen estar en <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE</code>." }
+        {
+            "q": "P: ¿Qué hago si encuentro un bug?",
+            "a": "R: Ante cualquier bug puedes escribirme por Twitter, correo o Discord."
+        },
+        {
+            "q": "P: ¿Aceptan peticiones?",
+            "a": "R: Sí, mándame un mensaje y consideraré la idea y su complejidad."
+        },
+        {
+            "q": "P: ¿Cómo aplico el parche de un mod de Pokémon?",
+            "a": "R: Puedes aplicarlo en <a href=\"https://www.marcrobledo.com/RomPatcher.js/\" target=\"_blank\"><strong>RomPatcher.js</strong></a>. Ten en cuenta que debes usar una ROM de tu propiedad cuyo sha1 coincida con la versión para la que el mod fue diseñado. Si el juego está en inglés la ROM debe ser la de USA, si está completamente en Español será la de ESP."
+        },
+        {
+            "q": "P: ¿Cómo aplico el parche de un mod de Ratchet & Clank?",
+            "a": "R: Para aplicar los mods de Ratchet & Clank necesitarás descargar (<a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\"><strong>racman</strong> </a>) y seguir sus instrucciones para poder usarlo con tu ROM legalmente adquirida de la colección HD de PS3, tanto si los quieres jugar en una PS3 como en el emulador RPCS3. Una vez lo tengas configurado, arrastra la carpeta de mi mod dentro de la carpeta <code>mods</code> de racman en el juego que corresponda. <code>NPEA00385</code> es Ratchet & Clank 1, <code>NPEA00386</code> es Ratchet & Clank 2, <code>NPEA00387</code> es Ratchet & Clank 3 y <code>NPEA00423</code> es Ratchet Gladiator."
+        },
+        {
+            "q": "P: ¿Cómo aplico el parche de un mod de Deltarune?",
+            "a": "R: Para aplicar los mods de Deltarune necesitarás descargar el programa (<a href=\"https://www.romhacking.net/utilities/704/\" target=\"_blank\"><strong>DeltaPatcher</strong></a>) y aplicar el parche <code>.xdelta</code> del mod al archivo <code>data.win</code> del capítulo correspondiente. Los archivos <code>data.win</code> de cada capítulo suelen estar en <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE</code>."
+        }
     ],
     "support.title": "Asistencia",
     "support.paragraphs": [
