@@ -46,11 +46,11 @@
         },
         {
             "q": "Q: How do I apply the patch for a Ratchet & Clank mod?",
-            "a": "A: To apply the Ratchet & Clank mods, you will need to download (<a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\"><strong>racman</strong></a>) and follow its instructions to use it with your legally acquired PS3 HD collection ROM, whether you want to play it on a PS3 or the RPCS3 emulator. Once you have it set up, drag the folder of my mod into the <code>mods</code> folder of racman in the corresponding game. <code>NPEA00385</code> is Ratchet & Clank 1, <code>NPEA00386</code> is Ratchet & Clank 2, <code>NPEA00387</code> is Ratchet & Clank 3, and <code>NPEA00423</code> is Ratchet Gladiator."
+            "a": "A: To apply the Ratchet & Clank mods, you will need to download <a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\"><strong>racman</strong></a> and follow its instructions to use it with your legally acquired PS3 HD collection ROM, whether you want to play it on a PS3 or the RPCS3 emulator. Once you have it set up, drag the folder of my mod into the <code>mods</code> folder of racman in the corresponding game. <code>NPEA00385</code> is Ratchet & Clank 1, <code>NPEA00386</code> is Ratchet & Clank 2, <code>NPEA00387</code> is Ratchet & Clank 3, and <code>NPEA00423</code> is Ratchet Gladiator."
         },
         {
             "q": "Q: How do I apply the patch for a Deltarune mod?",
-            "a": "A: To apply the Deltarune mods, you will need to download (<a href=\"https://www.romhacking.net/utilities/704/\" target=\"_blank\"><strong>DeltaPatcher</strong></a>) and apply the <code>.xdelta</code> patch of the mod to the <code>data.win</code> file of the corresponding chapter. The <code>data.win</code> files for each chapter are usually located in <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE</code>."
+            "a": "A: To apply the Deltarune mods, you will need to download <a href=\"https://www.romhacking.net/utilities/704/\" target=\"_blank\"><strong>DeltaPatcher</strong></a> and apply the <code>.xdelta</code> patch of the mod to the <code>data.win</code> file of the corresponding chapter. The <code>data.win</code> files for each chapter are usually located in <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE</code>."
         }
     ],
     "support.title": "Assistance",
