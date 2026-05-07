@@ -19,6 +19,7 @@ window.setLanguage = async function(lang) {
 
     await fetchI18nData();
     applyI18nToDOM();
+    renderDynamicContent();
     
     // Dispatch custom event to notify other scripts (like script.js) to re-render dynamic content
     document.dispatchEvent(new Event('languageChanged'));
@@ -56,6 +57,36 @@ function applyI18nToDOM() {
             }
         }
     });
+}
+
+function renderDynamicContent() {
+    // Render FAQ
+    const faqContainer = document.getElementById('faq-content');
+    if (faqContainer && window.i18nStore['faq.items']) {
+        let html = '';
+        window.i18nStore['faq.items'].forEach((item, index) => {
+            const marginStyle = index > 0 ? ' margin-top: 2rem;' : '';
+            html += `<p style="color: var(--gold-primary); font-weight: bold;${marginStyle}">${item.q}</p>`;
+            html += `<p>${item.a}</p>`;
+        });
+        faqContainer.innerHTML = html;
+    }
+
+    // Render paragraphs for About, Support, Terms
+    const renderParagraphs = (containerId, storeKey) => {
+        const container = document.getElementById(containerId);
+        if (container && window.i18nStore[storeKey]) {
+            let html = '';
+            window.i18nStore[storeKey].forEach(p => {
+                html += `<p>${p}</p>`;
+            });
+            container.innerHTML = html;
+        }
+    };
+
+    renderParagraphs('about-content', 'about.paragraphs');
+    renderParagraphs('support-content', 'support.paragraphs');
+    renderParagraphs('terms-content', 'terms.paragraphs');
 }
 
 function t(key) {
