@@ -36,6 +36,10 @@
     "faq.a2": "R: Sí, mándame un mensaje y consideraré la idea y su complejidad.",
     "faq.q3": "P: ¿Cómo aplico el parche de un mod de Pokémon?",
     "faq.a3": "R: Puedes aplicarlo en https://www.marcrobledo.com/RomPatcher.js/. Ten en cuenta que debes usar una ROM de tu propiedad cuyo sha1 coincida con la versión para la que el mod fue diseñado. Si el juego está en inglés la ROM debe ser la de USA, si está completamente en Español será la de ESP.",
+    "faq.q4": "P: ¿Cómo aplico el parche de un mod de Ratchet & Clank?",
+    "faq.a4": "R: Para aplicar los mods de Ratchet & Clank necesitarás descargar racman (https://github.com/MichaelRelaxen/racman) y seguir sus instrucciones para poder usarlo con tu ROM legalmente adquirida de la colección HD de PS3, tanto si los quieres jugar en una PS3 como en el emulador RPCS3. Una vez lo tengas configurado, arrastra la carpeta de mi mod dentro de la carpeta \"mods\" de racman en el juego que corresponda. NPEA00385 es Ratchet & Clank 1, NPEA00386 es Ratchet & Clank 2, NPEA00387 es Ratchet & Clank 3 y NPEA00423 es Ratchet Gladiator.",
+    "faq.q5": "P: ¿Cómo aplico el parche de un mod de Deltarune?",
+    "faq.a5": "R: Para aplicar los mods de Deltarune necesitarás descargar el programa DeltaPatcher (https://www.romhacking.net/utilities/704/) y aplicar el parche .xdelta del mod al data.win del capítulo correspondiente al mod. Los archivos de cada capítulo suelen estar en \"C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE\"."
     "support.title": "Asistencia",
     "support.p1": "Para fallos estructurales graves, por favor, póngase en contacto con nosotros adjuntando registros detallados del incidente.",
     "terms.title": "Condiciones de Uso",
