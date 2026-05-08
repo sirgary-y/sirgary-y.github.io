@@ -53,20 +53,12 @@
     ],
     "downloads": [
       {
-        "version": "HeartGold",
-        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1.rar"
+        "version": "HeartGold ESP",
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1_ESP.rar"
       },
       {
-        "version": "HeartGold + Moves",
-        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer_RandomMoves1.1.rar"
-      },
-      {
-        "version": "SoulSilver",
-        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1.rar"
-      },
-      {
-        "version": "SoulSilver + Moves",
-        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer_RandomMoves1.1.rar"
+        "version": "SoulSilver ESP",
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1_ESP.rar"
       }
     ]
   },
@@ -152,7 +144,7 @@
     "downloads": [
       {
         "version": "GBA + SAV",
-        "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles.rar"
+        "url": "assets/mods/pokemon-ash-battles/Emerald_AshBattles.rar"
       }
     ]
   },
