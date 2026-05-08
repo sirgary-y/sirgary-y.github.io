@@ -53,22 +53,22 @@
     ],
     "downloads": [
       {
-        "version": "HeartGold ESP",
+        "version": "HeartGold",
         "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1_ESP.rar",
         "lang": "es"
       },
       {
-        "version": "SoulSilver ESP",
+        "version": "SoulSilver",
         "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1_ESP.rar",
         "lang": "es"
       },
       {
-        "version": "HeartGold ENG",
+        "version": "HeartGold",
         "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1_ENG.rar",
         "lang": "en"
       },
       {
-        "version": "SoulSilver ENG",
+        "version": "SoulSilver",
         "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1_ENG.rar",
         "lang": "en"
       }
@@ -114,7 +114,8 @@
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/pokemon-eggmerald/pokemon-eggmerald.zip"
+        "url": "assets/mods/pokemon-eggmerald/pokemon-eggmerald.zip",
+        "lang": "es"
       }
     ]
   },
@@ -156,7 +157,8 @@
     "downloads": [
       {
         "version": "GBA + SAV",
-        "url": "assets/mods/pokemon-ash-battles/Emerald_AshBattles.rar"
+        "url": "assets/mods/pokemon-ash-battles/Emerald_AshBattles.rar",
+        "lang": "es"
       }
     ]
   },
@@ -199,7 +201,8 @@
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/pokemon-color-change/pokemon-color-change.zip"
+        "url": "assets/mods/pokemon-color-change/pokemon-color-change.zip",
+        "lang": "es"
       }
     ]
   },
@@ -242,7 +245,8 @@
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/pokemon-russian-rulette/pokemon-russian-rulette.zip"
+        "url": "assets/mods/pokemon-russian-rulette/pokemon-russian-rulette.zip",
+        "lang": "es"
       }
     ]
   },
