@@ -473,12 +473,12 @@ select option {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .lang-flag {
     height: 14px;
     width: auto;
-    margin-left: 8px;
     border-radius: 2px;
 }
 
