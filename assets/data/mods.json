@@ -54,11 +54,23 @@
     "downloads": [
       {
         "version": "HeartGold ESP",
-        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1_ESP.rar"
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1_ESP.rar",
+        "lang": "esp"
       },
       {
         "version": "SoulSilver ESP",
-        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1_ESP.rar"
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1_ESP.rar",
+        "lang": "esp"
+      },
+      {
+        "version": "HeartGold ENG",
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeHG_HitRandomizer1.1_ENG.rar",
+        "lang": "en"
+      },
+      {
+        "version": "SoulSilver ENG",
+        "url": "assets/mods/pokemon-hgss-hitrandomizer/PokeSS_HitRandomizer1.1_ENG.rar",
+        "lang": "en"
       }
     ]
   },
