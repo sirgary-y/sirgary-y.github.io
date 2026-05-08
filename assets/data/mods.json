@@ -122,8 +122,8 @@
     },
     "game": "Pokémon Emerald",
     "description": {
-      "en": "Fight against Ash's teams from each season of the anime. Made for the Pokétuber Boshtok.",
-      "es": "Pelea contra los equipos de Ash de cada temporada del anime. Creado para el PokéTuber Boshtok."
+      "en": "Fight against Ash's teams from each season of the anime. Made for the Pokétuber Boshtok using the pokeemerald expansion.",
+      "es": "Pelea contra los equipos de Ash de cada temporada del anime. Creado para el PokéTuber Boshtok usando la pokeemerald expansion."
     },
     "tags": {
       "en": [
@@ -151,12 +151,8 @@
     ],
     "downloads": [
       {
-        "version": "GBA",
-        "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles.zip"
-      },
-      {
-        "version": "Save",
-        "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles-nds.zip"
+        "version": "GBA + SAV",
+        "url": "assets/mods/pokemon-ash-battles/pokemon-ash-battles.rar"
       }
     ]
   },
