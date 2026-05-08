@@ -76,6 +76,7 @@
   },
   {
     "id": "pokemon-eggmerald",
+    "status": "new",
     "name": {
       "en": "Pokémon Eggmerald",
       "es": "Pokémon Eggmerald"
@@ -121,6 +122,7 @@
   },
   {
     "id": "pokemon-ash-battles",
+    "status": "new",
     "name": {
       "en": "Pokémon Ash Battles",
       "es": "Batallas Pokémon de Ash"
@@ -510,6 +512,7 @@
   },
   {
     "id": "pokemon-bsdp-randomizer",
+    "hidden": true,
     "name": {
       "en": "Randomizer in Brilliant Diamond and Shining Pearl",
       "es": "Randomizer en Diamante Brillante y Perla Reluciente"
