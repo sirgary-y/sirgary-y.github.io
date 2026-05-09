@@ -681,6 +681,7 @@
   },
   {
     "id": "pokemon-frlg-poison",
+    "hidden": true,
     "name": {
       "en": "Always Poisoned Pokémon in FireRed and LeafGreen",
       "es": "Pokémon Siempre Envenenados en Rojo Fuego y Verde Hoja"
