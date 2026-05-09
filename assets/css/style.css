@@ -475,7 +475,7 @@ select option {
 
 .warning-content.active {
     max-height: 500px;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .warning-content span {
