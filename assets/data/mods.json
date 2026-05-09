@@ -152,11 +152,13 @@
       "en": [
         "Gameplay",
         "Pokémon",
+        "New Content",
         "Challenge"
       ],
       "es": [
         "Gameplay",
         "Pokémon",
+        "Nuevo Contenido",
         "Reto"
       ]
     },
@@ -311,11 +313,13 @@
     "tags": {
       "en": [
         "Pokémon",
-        "Freecam"
+        "Utility / QoL",
+        "Camera"
       ],
       "es": [
         "Pokémon",
-        "Cámara libre"
+        "Utilidad / QoL",
+        "Cámara"
       ]
     },
     "thumbnail": "assets/mods/pokemon-platinum-freecamera/thumbnail.jpg",
@@ -411,11 +415,13 @@
     "tags": {
       "en": [
         "Pokémon",
-        "Freecam"
+        "Utility / QoL",
+        "Camera"
       ],
       "es": [
         "Pokémon",
-        "Cámara libre"
+        "Utilidad / QoL",
+        "Cámara"
       ]
     },
     "thumbnail": "assets/mods/pokemon-emerald-freecamera/thumbnail.jpg",
@@ -564,19 +570,21 @@
     },
     "tags": {
       "en": [
+        "Pokémon",
+        "Overhaul",
         "Difficulty",
+        "Randomizer",
+        "New Content",
         "Textures",
-        "Gameplay",
-        "Content",
-        "Pokemon",
         "Challenge"
       ],
       "es": [
+        "Pokémon",
+        "Mejoras",
         "Dificultad",
+        "Aleatorio",
+        "Nuevo Contenido",
         "Texturas",
-        "Gameplay",
-        "Contenido",
-        "Pokemon",
         "Reto"
       ]
     },
@@ -621,14 +629,12 @@
     },
     "tags": {
       "en": [
-        "Gameplay",
-        "Pokemon",
-        "Challenge"
+        "Pokémon",
+        "Randomizer"
       ],
       "es": [
-        "Gameplay",
-        "Pokemon",
-        "Reto"
+        "Pokémon",
+        "Aleatorio"
       ]
     },
     "thumbnail": "assets/mods/pokemon-bdsp-randomizer/thumbnail.jpg",
@@ -655,12 +661,12 @@
     "tags": {
       "en": [
         "Gameplay",
-        "Pokemon",
+        "Pokémon",
         "Challenge"
       ],
       "es": [
         "Gameplay",
-        "Pokemon",
+        "Pokémon",
         "Reto"
       ]
     },
@@ -687,12 +693,12 @@
     "tags": {
       "en": [
         "Gameplay",
-        "Pokemon",
+        "Pokémon",
         "Challenge"
       ],
       "es": [
         "Gameplay",
-        "Pokemon",
+        "Pokémon",
         "Reto"
       ]
     },
@@ -721,12 +727,14 @@
       "en": [
         "Gameplay",
         "Ratchet & Clank",
+        "One-Hit KO",
         "Challenge"
       ],
       "es": [
         "Gameplay",
         "Ratchet & Clank",
-        "Challenge"
+        "One-Hit KO",
+        "Reto"
       ]
     },
     "thumbnail": "assets/mods/ratchet-smol/thumbnail.png",
@@ -754,11 +762,13 @@
       "en": [
         "Gameplay",
         "Ratchet & Clank",
+        "Resource Management",
         "Timer"
       ],
       "es": [
         "Gameplay",
         "Ratchet & Clank",
+        "Gestión de Recursos",
         "Temporizador"
       ]
     },
