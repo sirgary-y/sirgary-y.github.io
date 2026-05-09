@@ -14,7 +14,7 @@
   },
   {
     "id": "pokemon-hgss-hitrandomizer",
-    "status": "new",
+    "status": "updated",
     "featured": true,
     "name": {
       "en": "Pokémon, but my Pokémon get Randomized with Every Hit",
@@ -166,6 +166,7 @@
   },
   {
     "id": "pokemon-emerald-colorchange",
+    "status": "updated",
     "name": {
       "en": "Pokémon, but Pokémon Change Type with Every Hit",
       "es": "Pokémon, pero los Pokémon Cambian de Tipo con Cada Golpe"
@@ -433,7 +434,7 @@
       ],
       "es": [
         "Gameplay",
-        "Pokemon",
+        "Pokémon",
         "Reto",
         "Estrategia"
       ]
@@ -458,19 +459,19 @@
     ]
   },
   {
-    "id": "pokemon-bdsp-xamorlocke",
+    "id": "pokemon-bdsp-xamorklocke",
     "changelog": {
       "en": "- Fixed minor texture bugs.\n- Increased difficulty curve slightly.",
       "es": "- Arreglados pequeños bugs de texturas.\n- Aumentada ligeramente la curva de dificultad."
     },
     "name": {
-      "en": "Xamorlocke in Brilliant Diamond and Shining Pearl",
-      "es": "Xamorlocke en Diamante Brillante y Perla Reluciente"
+      "en": "Xamorklocke in Brilliant Diamond and Shining Pearl",
+      "es": "Xamorklocke en Diamante Brillante y Perla Reluciente"
     },
     "game": "Pokémon",
     "description": {
-      "en": "Custom ROM for the Xamorlocke challenge by YouTuber Xamork.",
-      "es": "ROM custom para el reto Xamorlocke del YouTuber Xamork."
+      "en": "Custom ROM with several mods for the Xamorklocke challenge by PokéTuber Xamork. Includes increased difficulty with improved teams, Pokémon randomizer, removed experience sharing, removed friendship effects, new textures, new Pokémon, new animations, realistic sizes...<br>Created for the PokéTuber Xamork.",
+      "es": "ROM custom con varios mods para el reto Xamorlocke. Incluye una mayor dificultad con equipos mejorados, randomizado de Pokémon, quitado el repartir experiencia, quitados los efectos de la amistad, nuevas texturas, nuevos Pokémon, nuevas animaciones, tamaños realistas...<br>Creado para el PokéTuber Xamork."
     },
     "tags": {
       "en": [
@@ -490,7 +491,7 @@
         "Reto"
       ]
     },
-    "thumbnail": "assets/mods/pokemon-bdsp-xamorlocke/thumbnail.jpg",
+    "thumbnail": "assets/mods/pokemon-bdsp-xamorklocke/thumbnail.jpg",
     "releaseDate": "2022-09-14",
     "showcases": [
       {
@@ -504,8 +505,16 @@
     ],
     "downloads": [
       {
-        "version": "Switch",
-        "url": "assets/mods/pokemon-bdsp-xamorlocke/pokemon-bdsp-xamorlocke.zip"
+        "version": "Switch pt1",
+        "url": "assets/mods/pokemon-bdsp-xamorklocke/Xamorlocke_Mods_1.rar"
+      },
+      {
+        "version": "Switch pt2",
+        "url": "assets/mods/pokemon-bdsp-xamorklocke/Xamorlocke_Mods_2.rar"
+      },
+            {
+        "version": "Switch pt3",
+        "url": "assets/mods/pokemon-bdsp-xamorklocke/Xamorlocke_Mods_3.rar"
       }
     ]
   },
