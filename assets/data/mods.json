@@ -165,11 +165,11 @@
     ]
   },
   {
-    "id": "pokemon-color-change",
+    "id": "pokemon-emerald-colorchange",
     "hidden": true,
     "name": {
-      "en": "Pokémon Color Change",
-      "es": "Pokémon Cambio de Color"
+      "en": "Pokémon, but Pokémon Change Type with Every Hit",
+      "es": "Pokémon, pero los Pokémon Cambian de Tipo con Cada Golpe"
     },
     "game": "Pokémon Emerald",
     "description": {
@@ -188,7 +188,7 @@
         "Reto"
       ]
     },
-    "thumbnail": "assets/mods/pokemon-color-change/thumbnail.jpeg",
+    "thumbnail": "assets/mods/pokemon-emerald-colorchange/thumbnail.jpeg",
     "releaseDate": "2021-02-02",
     "showcases": [
       {
@@ -203,7 +203,7 @@
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/pokemon-color-change/pokemon-color-change.zip",
+        "url": "assets/mods/pokemon-emerald-colorchange/Esmeralda_CambioColor.rar",
         "lang": "es"
       }
     ]
