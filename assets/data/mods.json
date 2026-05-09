@@ -131,7 +131,7 @@
     "downloads": [
       {
         "version": "GBA",
-        "url": "assets/mods/pokemon-eggmerald/pokemon-eggmerald.zip",
+        "url": "assets/mods/pokemon-eggmerald/Pokemon_Eggmerald.rar",
         "lang": "es"
       }
     ]
@@ -555,8 +555,8 @@
       "es": "ROM custom con varios mods para el reto Xamorlocke. Incluye una mayor dificultad con equipos mejorados, randomizado de Pokémon, quitado el repartir experiencia, quitados los efectos de la amistad, nuevas texturas, nuevos Pokémon, nuevas animaciones, tamaños realistas...<br>Creado para el PokéTuber Xamork."
     },
     "warningLabel": {
-      "en": "REQUIREMENT",
-      "es": "REQUISITO"
+      "en": "REQUIREMENTS",
+      "es": "REQUISITOS"
     },
     "warning": {
       "en": "Requires version 1.3.0 of the game.",
