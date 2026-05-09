@@ -22,8 +22,8 @@
     },
     "game": "Pokémon HeartGold/SoulSilver",
     "description": {
-      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. There is a version that also randomizes the moves. Made for the Pokétuber Capitán Pokémon.",
-      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon cambian cada vez que sufren daño. Hay una versión que también randomiza los movimientos. Creado para el PokéTuber Capitán Pokémon."
+      "en": "A randomizer for Pokémon HeartGold/SoulSilver in which your Pokémon change every time they take damage. There is a version that also randomizes the moves.<br>Made for the Pokétuber Capitán Pokémon.",
+      "es": "Un randomizador para Pokémon HeartGold/SoulSilver en el que tus Pokémon cambian cada vez que sufren daño. Hay una versión que también randomiza los movimientos.<br>Creado para el PokéTuber Capitán Pokémon."
     },
     "tags": {
       "en": [
@@ -83,8 +83,8 @@
     },
     "game": "Pokémon Emerald",
     "description": {
-      "en": "Wild Pokémon are random eggs that only display the type of the Pokémon that will hatch from them, and their color pallete. Made for the Pokétuber Andros.",
-      "es": "Los Pokémon salvajes son huevos aleatorios que solo muestran el tipo de Pokémon que nacerá de ellos, y su paleta de colores. Creado para el PokéTuber Andros."
+      "en": "Wild Pokémon are random eggs that only display the type of the Pokémon that will hatch from them, and their color pallete.<br>Made for the Pokétuber Andros.",
+      "es": "Los Pokémon salvajes son huevos aleatorios que solo muestran el tipo de Pokémon que nacerá de ellos, y su paleta de colores.<br>Creado para el PokéTuber Andros."
     },
     "tags": {
       "en": [
@@ -129,8 +129,8 @@
     },
     "game": "Pokémon Emerald",
     "description": {
-      "en": "Fight against Ash's teams from each season of the anime. Made for the Pokétuber Boshtok using the pokeemerald expansion.",
-      "es": "Pelea contra los equipos de Ash de cada temporada del anime. Creado para el PokéTuber Boshtok usando la pokeemerald expansion."
+      "en": "Fight against Ash's teams from each season of the anime.<br>Made for the Pokétuber Boshtok.",
+      "es": "Pelea contra los equipos de Ash de cada temporada del anime.<br>Creado para el PokéTuber Boshtok."
     },
     "tags": {
       "en": [
@@ -168,17 +168,17 @@
     "id": "pokemon-emerald-colorchange",
     "status": "updated",
     "changelog": {
-      "en": "- Updated the original mod to be fully in Spanish.",
-      "es": "- Actualizado el mod original para estar completamente en español."
+      "en": "- Updated to be fully in Spanish.",
+      "es": "- Actualizado para estar completamente en español."
     },
     "name": {
-      "en": "Pokémon, but Pokémon Change Type with Every Hit",
-      "es": "Pokémon, pero los Pokémon Cambian de Tipo con Cada Golpe"
+      "en": "Pokémon, but they Change Type with Every Hit",
+      "es": "Pokémon, pero Cambian de Tipo con Cada Golpe"
     },
     "game": "Pokémon Emerald",
     "description": {
-      "en": "All Pokémon have the extra ability Color Change, making them change to the type of the last attack received. Made for the PokéTuber PokéCarlengues.",
-      "es": "Todos los Pokémon tienen de habilidad extra Cambio de Color, haciendo que cambien al tipo del último ataque recibido. Creado para el PokéTuber PokéCarlengues."
+      "en": "All Pokémon have the extra ability Color Change, making them change to the type of the last attack received.<br>Made for the PokéTuber PokéCarlengues.",
+      "es": "Todos los Pokémon tienen de habilidad extra Cambio de Color, haciendo que cambien al tipo del último ataque recibido.<br>Creado para el PokéTuber PokéCarlengues."
     },
     "tags": {
       "en": [
@@ -221,8 +221,8 @@
     },
     "game": "Pokémon Emerald",
     "description": {
-      "en": "Every time a trainer is defeated, a random Pokémon from your team disappears. Made for the PokéTuber KodiDre.",
-      "es": "Cada vez que un entrenador es derrotado, un Pokémon aleatorio de tu equipo desaparece. Creado para el PokéTuber KodiDre."
+      "en": "Every time a trainer is defeated, a random Pokémon from your team disappears.<br>Made for the PokéTuber KodiDre.",
+      "es": "Cada vez que un entrenador es derrotado, un Pokémon aleatorio de tu equipo desaparece.<br>Creado para el PokéTuber KodiDre."
     },
     "tags": {
       "en": [
@@ -265,7 +265,7 @@
     },
     "game": "Pokémon Platinum",
     "description": {
-      "en": "A simple mod to unlock the camera in Pokémon Platinum, allowing you to explore the Sinnoh region from any angle. Created for the PokéTuber Andros.",
+      "en": "A simple mod to unlock the camera in Pokémon Platinum, allowing you to explore the Sinnoh region from any angle.",
       "es": "Un simple mod para desbloquear la cámara en Pokémon Platino, permitiéndote explorar la región de Sinnoh desde cualquier ángulo."
     },
     "tags": {
@@ -426,8 +426,8 @@
     },
     "game": "Pokémon",
     "description": {
-      "en": "Every time you defeat a trainer, your team swaps with theirs. Developed for PokéTuber Karimero.",
-      "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo. Desarrollado para el PokéTuber Karimero."
+      "en": "Every time you defeat a trainer, your team swaps with theirs.<br>Developed for PokéTuber Karimero.",
+      "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo.<br>Desarrollado para el PokéTuber Karimero."
     },
     "tags": {
       "en": [
@@ -555,8 +555,8 @@
     "id": "pokemon-bsdp-0exp",
     "status": "new",
     "name": {
-      "en": "Pokémon Brilliant Diamond and Shining Pearl but your Pokémon don't gain Experience",
-      "es": "Pokémon Diamante Brillante y Perla Reluciente pero tus Pokémon no ganan Experiencia"
+      "en": "Pokémon Brilliant Diamond and Shining Pearl but they don't Gain Experience",
+      "es": "Pokémon Diamante Brillante y Perla Reluciente pero no Ganan Experiencia"
     },
     "game": "Pokémon",
     "description": {
@@ -641,7 +641,7 @@
       ]
     },
     "thumbnail": "assets/mods/ratchet-smol/thumbnail.png",
-    "releaseDate": "2023-02-21",
+    "releaseDate": "2022-06-01",
     "downloads": [
       {
         "version": "PS3",
