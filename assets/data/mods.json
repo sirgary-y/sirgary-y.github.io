@@ -543,11 +543,43 @@
       ]
     },
     "thumbnail": "assets/mods/pokemon-bdsp-randomizer/thumbnail.jpg",
-    "releaseDate": "2026-04-19",
+    "releaseDate": "2021-11-25",
     "downloads": [
       {
         "version": "GBA",
         "url": "assets/mods/pokemon-bdsp-randomizer/pokemon-bdsp-randomizer.zip"
+      }
+    ]
+  },
+    {
+    "id": "pokemon-bsdp-0exp",
+    "name": {
+      "en": "Pokémon Brilliant Diamond and Shining Pearl but your Pokémon don't gain Experience",
+      "es": "Pokémon Diamante Brillante y Perla Reluciente pero tus Pokémon no ganan Experiencia"
+    },
+    "game": "Pokémon",
+    "description": {
+      "en": "Pokémon Brilliant Diamond and Shining Pearl but your Pokémon don't gain Experience. (They actually gain 1 point lol)",
+      "es": "Pokémon Diamante Brillante y Perla Reluciente pero tus Pokémon no ganan Experiencia. (Realmente ganan 1 punto lol)"
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokemon",
+        "Challenge"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokemon",
+        "Reto"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-bdsp-0exp/thumbnail.png",
+    "releaseDate": "2021-11-30",
+    "downloads": [
+      {
+        "version": "GBA",
+        "url": "assets/mods/pokemon-bdsp-0exp/BDSP_0Exp.rar"
       }
     ]
   },

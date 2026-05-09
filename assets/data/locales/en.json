@@ -45,6 +45,10 @@
             "a": "A: You can apply it at <a href=\"https://www.marcrobledo.com/RomPatcher.js/\" target=\"_blank\"><strong>RomPatcher.js</strong></a>. Please note that you should use a ROM of your own whose sha1 matches the version for which the mod was designed. If the game is in English, the ROM should be the USA version; if it's completely in Spanish, it should be the ESP version."
         },
         {
+            "q": "Q: How do I use a Pokémon mod on Switch?",
+            "a": "A: You simply need to copy the folder with the name of the mod into the corresponding folder for your legally acquired ROM in case of using an emulator, or into your Switch environment in case of using the console."
+        },
+        {
             "q": "Q: How do I apply the patch for a Ratchet & Clank mod?",
             "a": "A: To apply the Ratchet & Clank mods, you will need to download <a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\"><strong>racman</strong></a> and follow its instructions to use it with your legally acquired PS3 HD collection ROM, whether you want to play it on a PS3 or the RPCS3 emulator. Once you have it set up, drag the folder of my mod into the <code>mods</code> folder of racman in the corresponding game. <code>NPEA00385</code> is Ratchet & Clank 1, <code>NPEA00386</code> is Ratchet & Clank 2, <code>NPEA00387</code> is Ratchet & Clank 3, and <code>NPEA00423</code> is Ratchet Gladiator."
         },
