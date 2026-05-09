@@ -166,7 +166,6 @@
   },
   {
     "id": "pokemon-emerald-colorchange",
-    "hidden": true,
     "name": {
       "en": "Pokémon, but Pokémon Change Type with Every Hit",
       "es": "Pokémon, pero los Pokémon Cambian de Tipo con Cada Golpe"
