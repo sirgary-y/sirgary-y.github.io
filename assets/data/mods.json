@@ -452,7 +452,7 @@
       "en": "Buy Pokémon in Emerald",
       "es": "Comprar Pokémon en Esmeralda"
     },
-    "game": "Pokémon",
+    "game": "Pokémon Emerald",
     "description": {
       "en": "The only way to get Pokémon is to buy them in stores.",
       "es": "La única manera de conseguir Pokémon es comprándolos en las tiendas."
@@ -496,7 +496,7 @@
       "en": "Steal Pokemon in Emerald",
       "es": "Robar Pokemon en Esmeralda"
     },
-    "game": "Pokémon",
+    "game": "Pokémon Emerald",
     "description": {
       "en": "Every time you defeat a trainer, your team swaps with theirs.<br>Developed for PokéTuber Karimero.",
       "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo.<br>Desarrollado para el PokéTuber Karimero."
@@ -549,7 +549,7 @@
       "en": "Xamorklocke in Brilliant Diamond",
       "es": "Xamorklocke en Diamante Brillante"
     },
-    "game": "Pokémon",
+    "game": "Pokémon Brilliant Diamond/Shining Pearl",
     "description": {
       "en": "Custom ROM with several mods for the Xamorklocke challenge by PokéTuber Xamork. Includes increased difficulty with improved teams, Pokémon randomizer, removed experience sharing, removed friendship effects, new textures, new Pokémon, new animations, realistic sizes...<br>Created for the PokéTuber Xamork.",
       "es": "ROM custom con varios mods para el reto Xamorlocke. Incluye una mayor dificultad con equipos mejorados, randomizado de Pokémon, quitado el repartir experiencia, quitados los efectos de la amistad, nuevas texturas, nuevos Pokémon, nuevas animaciones, tamaños realistas...<br>Creado para el PokéTuber Xamork."
@@ -614,7 +614,7 @@
       "en": "Randomizer in Brilliant Diamond and Shining Pearl",
       "es": "Randomizer en Diamante Brillante y Perla Reluciente"
     },
-    "game": "Pokémon",
+    "game": "Pokémon Brilliant Diamond/Shining Pearl",
     "description": {
       "en": "Probably one of the first randomizers for Pokémon BDSP.",
       "es": "Probablemente uno de los primeros randomizadores de Pokémon BDSP."
@@ -647,7 +647,7 @@
       "en": "Pokémon Brilliant Diamond and Shining Pearl but they don't Gain Experience",
       "es": "Pokémon Diamante Brillante y Perla Reluciente pero no Ganan Experiencia"
     },
-    "game": "Pokémon",
+    "game": "Pokémon Brilliant Diamond/Shining Pearl",
     "description": {
       "en": "Pokémon Brilliant Diamond and Shining Pearl but your Pokémon don't gain Experience. (They actually gain 1 point lol)",
       "es": "Pokémon Diamante Brillante y Perla Reluciente pero tus Pokémon no ganan Experiencia. (Realmente ganan 1 punto lol)"
@@ -679,7 +679,7 @@
       "en": "Always Poisoned Pokémon in FireRed and LeafGreen",
       "es": "Pokémon Siempre Envenenados en Rojo Fuego y Verde Hoja"
     },
-    "game": "Pokémon",
+    "game": "Pokémon FireRed/LeafGreen",
     "description": {
       "en": "In this challenge, your Pokémon will always be poisoned, losing health every few steps and in every battle. After the fourth badge, Pokémon will become badly poisoned.",
       "es": "En este reto tus Pokémon siempre estarán envenenados, perdiendo vida cada pocos pasos y en todos los combates. A partir de la cuarta medalla el envenenamiento será grave."
