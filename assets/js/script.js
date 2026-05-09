@@ -125,11 +125,22 @@ document.addEventListener("DOMContentLoaded", () => {
         let warningHtml = '';
         if (mod.warning) {
             let wText = mod.warning[lang] || mod.warning.en || mod.warning;
+            let wLabel = 'IMPORTANT';
+            if (mod.warningLabel) {
+                wLabel = mod.warningLabel[lang] || mod.warningLabel.en || mod.warningLabel;
+            } else if (window.i18nStore && window.i18nStore['badge.important']) {
+                wLabel = window.i18nStore['badge.important'];
+            }
+
             if (typeof wText === 'string') {
                 warningHtml = `
-                    <div class="mod-warning">
-                        <i class='bx bx-error-circle'></i>
-                        <span>${wText}</span>
+                    <div class="mod-warning-container">
+                        <button class="warning-btn">
+                            <i class='bx bx-error-circle'></i> 
+                            <span>${wLabel}</span> 
+                            <i class='bx bx-chevron-down chevron'></i>
+                        </button>
+                        <div class="warning-content"><span>${wText}</span></div>
                     </div>
                 `;
             }
@@ -329,6 +340,21 @@ document.addEventListener("DOMContentLoaded", () => {
         if (btn) {
             const content = btn.nextElementSibling;
             const icon = btn.querySelector('i');
+            content.classList.toggle('active');
+            if (content.classList.contains('active')) {
+                icon.classList.replace('bx-chevron-down', 'bx-chevron-up');
+            } else {
+                icon.classList.replace('bx-chevron-up', 'bx-chevron-down');
+            }
+        }
+    });
+
+    // Warning accordion click
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('.warning-btn');
+        if (btn) {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector('.chevron');
             content.classList.toggle('active');
             if (content.classList.contains('active')) {
                 icon.classList.replace('bx-chevron-down', 'bx-chevron-up');

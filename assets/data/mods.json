@@ -41,6 +41,10 @@
     },
     "thumbnail": "assets/mods/pokemon-hgss-hitrandomizer/thumbnail.jpeg",
     "releaseDate": "2026-05-28",
+    "warningLabel": {
+      "en": "BASE ROMS",
+      "es": "ROMS BASE"
+    },
     "warning": {
       "en": "HeartGold USA. sha1: 4fcded0e2713dc03929845de631d0932ea2b5a37.<br>SoulSilver USA. sha1: f8dc38ea20c17541a43b58c5e6d18c1732c7e582.",
       "es": "HeartGold USA. sha1: 4fcded0e2713dc03929845de631d0932ea2b5a37.<br>SoulSilver USA. sha1: f8dc38ea20c17541a43b58c5e6d18c1732c7e582."
@@ -106,6 +110,10 @@
     },
     "thumbnail": "assets/mods/pokemon-eggmerald/thumbnail.jpeg",
     "releaseDate": "2025-07-07",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -154,6 +162,10 @@
     },
     "thumbnail": "assets/mods/pokemon-ash-battles/thumbnail.jpeg",
     "releaseDate": "2024-11-28",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -206,6 +218,10 @@
     },
     "thumbnail": "assets/mods/pokemon-emerald-colorchange/thumbnail.png",
     "releaseDate": "2021-02-02",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -254,6 +270,10 @@
     },
     "thumbnail": "assets/mods/pokemon-russian-rulette/thumbnail.jpg",
     "releaseDate": "2025-05-05",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -300,6 +320,10 @@
     },
     "thumbnail": "assets/mods/pokemon-platinum-freecamera/thumbnail.jpg",
     "releaseDate": "TBD",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Platinum USA. sha1: 0862ec35b24de5c7e2dcb88c9eea0873110d755c.",
       "es": "Platinum USA. sha1: 0862ec35b24de5c7e2dcb88c9eea0873110d755c."
@@ -347,6 +371,10 @@
     },
     "thumbnail": "assets/mods/pokemon-emerald-autobattler/thumbnail.jpg",
     "releaseDate": "TBD",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -392,6 +420,10 @@
     },
     "thumbnail": "assets/mods/pokemon-emerald-freecamera/thumbnail.jpg",
     "releaseDate": "TBD",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -441,6 +473,10 @@
     },
     "thumbnail": "assets/mods/pokemon-emerald-buy/thumbnail.png",
     "releaseDate": "2026-04-19",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -481,6 +517,10 @@
     },
     "thumbnail": "assets/mods/pokemon-emerald-steal/thumbnail.jpg",
     "releaseDate": "2022-01-01",
+    "warningLabel": {
+      "en": "BASE ROM",
+      "es": "ROM BASE"
+    },
     "warning": {
       "en": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7.",
       "es": "Emerald USA. sha1: f3ae088181bf583e55daf962a92bb46f4f1d07b7."
@@ -513,6 +553,10 @@
     "description": {
       "en": "Custom ROM with several mods for the Xamorklocke challenge by PokéTuber Xamork. Includes increased difficulty with improved teams, Pokémon randomizer, removed experience sharing, removed friendship effects, new textures, new Pokémon, new animations, realistic sizes...<br>Created for the PokéTuber Xamork.",
       "es": "ROM custom con varios mods para el reto Xamorlocke. Incluye una mayor dificultad con equipos mejorados, randomizado de Pokémon, quitado el repartir experiencia, quitados los efectos de la amistad, nuevas texturas, nuevos Pokémon, nuevas animaciones, tamaños realistas...<br>Creado para el PokéTuber Xamork."
+    },
+    "warningLabel": {
+      "en": "REQUIREMENT",
+      "es": "REQUISITO"
     },
     "warning": {
       "en": "Requires version 1.3.0 of the game.",

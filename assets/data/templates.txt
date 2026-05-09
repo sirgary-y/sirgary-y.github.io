@@ -15,6 +15,10 @@ Used for standard mods.
     "en": "English Description",
     "es": "Spanish Description"
   },
+  "warningLabel": {
+    "en": "BASE ROM",
+    "es": "ROM BASE"
+  },
   "warning": {
     "en": "Optional warning/important note here.",
     "es": "Nota importante/advertencia opcional aquí."
