@@ -15,6 +15,10 @@ Used for standard mods.
     "en": "English Description",
     "es": "Spanish Description"
   },
+  "warning": {
+    "en": "Optional warning/important note here.",
+    "es": "Nota importante/advertencia opcional aquí."
+  },
   "tags": {
     "en": ["Tag1", "Tag2"],
     "es": ["Tag1", "Tag2"]
@@ -40,6 +44,7 @@ Just add "status": "new" to a normal mod template.
   "name": { "en": "New Mod", "es": "Nuevo Mod" },
   "game": "Game Name",
   "description": { "en": "Desc", "es": "Desc" },
+  "warning": { "en": "", "es": "" },
   "tags": { "en": ["Tag1"], "es": ["Tag1"] },
   "thumbnail": "assets/mods/game-new-mod/thumbnail.png",
   "releaseDate": "YYYY-MM-DD",
@@ -60,6 +65,7 @@ Add "status": "updated" and a "changelog" object.
   "name": { "en": "Updated Mod", "es": "Mod Actualizado" },
   "game": "Game Name",
   "description": { "en": "Desc", "es": "Desc" },
+  "warning": { "en": "", "es": "" },
   "tags": { "en": ["Tag1"], "es": ["Tag1"] },
   "thumbnail": "assets/mods/game-updated-mod/thumbnail.png",
   "releaseDate": "YYYY-MM-DD",
@@ -92,6 +98,7 @@ Add "featured": true to any normal, new, or updated mod.
   "name": { "en": "Massive Overhaul", "es": "Overhaul Masivo" },
   "game": "Game Name",
   "description": { "en": "Desc", "es": "Desc" },
+  "warning": { "en": "", "es": "" },
   "tags": { "en": ["Tag1"], "es": ["Tag1"] },
   "thumbnail": "assets/mods/game-featured-mod/thumbnail.png",
   "releaseDate": "YYYY-MM-DD",

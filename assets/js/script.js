@@ -122,6 +122,19 @@ document.addEventListener("DOMContentLoaded", () => {
             `;
         }
 
+        let warningHtml = '';
+        if (mod.warning) {
+            let wText = mod.warning[lang] || mod.warning.en || mod.warning;
+            if (typeof wText === 'string') {
+                warningHtml = `
+                    <div class="mod-warning">
+                        <i class='bx bx-error-circle'></i>
+                        <span>${wText}</span>
+                    </div>
+                `;
+            }
+        }
+
         if (isFeatured) {
             let featTxt = window.i18nStore && window.i18nStore['badge.featured'] ? window.i18nStore['badge.featured'] : 'FEATURED MOD';
             return `
@@ -135,6 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="mod-tags">${tagsHtml}</div>
                         <p class="mod-desc">${mDesc}</p>
                         ${changelogHtml}
+                        ${warningHtml}
                     </div>
                     <div class="featured-actions">
                         ${showcasesHtml}
@@ -154,6 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="mod-tags">${tagsHtml}</div>
                     <p class="mod-desc">${mDesc}</p>
                     ${changelogHtml}
+                    ${warningHtml}
                     <div class="mod-downloads">
                         ${showcasesHtml}
                         ${downloadsHtml}

@@ -425,6 +425,29 @@ select option {
     flex: 1;
 }
 
+.mod-warning {
+    background: rgba(197, 179, 88, 0.08);
+    border-left: 3px solid var(--gold-primary);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: flex-start;
+    border-radius: 0 4px 4px 0;
+}
+
+.mod-warning i {
+    color: var(--gold-primary);
+    font-size: 1.3rem;
+    margin-top: 1px;
+}
+
+.mod-warning span {
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    line-height: 1.6;
+}
+
 .mod-tags {
     display: flex;
     flex-wrap: wrap;
