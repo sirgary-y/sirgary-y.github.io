@@ -139,7 +139,6 @@
   },
   {
     "id": "pokemon-eggmerald",
-    "status": "new",
     "name": {
       "en": "Pokémon Eggmerald",
       "es": "Pokémon Eggmerald"
@@ -193,7 +192,6 @@
   },
   {
     "id": "pokemon-ash-battles",
-    "status": "new",
     "name": {
       "en": "Pokémon Ash Battles",
       "es": "Batallas Pokémon de Ash"
@@ -605,7 +603,6 @@
   },
   {
     "id": "pokemon-bdsp-xamorklocke",
-    "status": "new",
     "name": {
       "en": "Xamorklocke in Brilliant Diamond",
       "es": "Xamorklocke en Diamante Brillante"
@@ -703,7 +700,6 @@
   },
   {
     "id": "pokemon-bsdp-0exp",
-    "status": "new",
     "name": {
       "en": "Pokémon Brilliant Diamond and Shining Pearl but they don't Gain Experience",
       "es": "Pokémon Diamante Brillante y Perla Reluciente pero no Ganan Experiencia"
@@ -769,7 +765,6 @@
   },
   {
     "id": "ratchet-smol",
-    "status": "new",
     "name": {
       "en": "Ratchet & Clank 1, but Ratchet is Small",
       "es": "Ratchet & Clank 1, pero Ratchet es Pequeño"
@@ -804,7 +799,6 @@
   },
   {
     "id": "ratchet-bolt-timer",
-    "status": "new",
     "name": {
       "en": "Bolts in Ratchet & Clank 1",
       "es": "Temporizador de Guitones en Ratchet & Clank 1"
