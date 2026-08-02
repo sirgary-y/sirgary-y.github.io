@@ -12,10 +12,65 @@
     },
     "releaseDate": "2026"
   },
+
   {
-    "id": "pokemon-hgss-hitrandomizer",
+    "id": "pokemon-mdred-floorraandomizer",
     "status": "new",
     "featured": true,
+    "name": {
+      "en": "Pokémon Mystery Dungeon, but Your Team Gets Randomized Every Floor",
+      "es": "Pokémon Mundo Misterioso, pero tu Equipo se Randomiza en cada Piso"
+    },
+    "game": "Pokémon Mystery Dungeon",
+    "description": {
+      "en": "A randomizer for PMD Red Rescue Team in which your Pokémon change every time you change floors.<br>Made for the YouTuber Jotacanario.",
+      "es": "Un randomizador para Pokémon Mundo Misterioso Equipo de Rescate Rojo en el que tus Pokémon cambian cada vez que cambias de piso.<br>Creado para el PokéTuber Jotacanario."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge",
+        "Randomizer"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto",
+        "Aleatorio"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-mdred-floorraandomizer/thumbnail.jpg",
+    "releaseDate": "2026-08-02",
+    "warningLabel": {
+      "en": "BASE ROMS",
+      "es": "ROMS BASE"
+    },
+    "warning": {
+      "en": "Pokémon Mystery Dungeon Red USA. sha1: 9f4cfc5b5f4859d17169a485462e977c7aac2b89.",
+      "es": "Pokémon Mundo Misterioso Rojo USA. sha1: 9f4cfc5b5f4859d17169a485462e977c7aac2b89."
+    },
+    "showcases": [
+      {
+        "type": "youtube",
+        "url": "https://youtu.be/WjCuD5amxEk",
+        "label": {
+          "en": "Jotacanario's video",
+          "es": "Vídeo de Jotacanario"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "Pokémon Mystery Dungeon Red Rescue Team",
+        "url": "assets/mods/pokemon-mdred-floorraandomizer/PMDRed_FloorRandomizer1.0.bps",
+        "lang": "eng"
+      }
+    ]
+  },
+  
+  {
+    "id": "pokemon-hgss-hitrandomizer",
     "name": {
       "en": "Pokémon, but They Get Randomized with Every Hit",
       "es": "Pokémon, pero se Randomizan con Cada Golpe"
