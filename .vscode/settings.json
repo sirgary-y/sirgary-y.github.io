@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["assets/data/mods.json"],
+      "url": "./assets/data/mods.schema.json"
+    }
+  ]
+}

@@ -1,6 +1,24 @@
 This file contains JSON templates for the different types of mod cards you can create.
 Copy the relevant JSON object into the `mods.json` array and fill out the details.
 
+TIPS
+- Open the repo in VS Code: mods.json gets autocomplete and error highlighting (mods.schema.json).
+- After adding a thumbnail, run:  python tools/build_images.py   (creates the fast .webp version)
+- Before pushing, run:            python tools/validate.py       (catches typos, missing files, wrong lang codes)
+- Every mod gets its own link:    https://sirgary-y.github.io/#<id>
+- "platform": GBA, NDS, 3DS, Switch, PS3 or PC (shown on the card).
+- "install": which install guide the mod shows:
+      rompatcher   = .bps/.ips patches for GBA/NDS ROMs
+      switch       = romfs mod folders for Switch games
+      racman       = Ratchet & Clank PS3 mods
+      deltapatcher = Deltarune .xdelta patches
+  The guide texts live in assets/data/locales/*.json ("install.<name>").
+- "lang" on a download is "en" or "es" (shows a flag).
+- Any "sha1: <40 hex chars>" in "warning" automatically gets a copy button.
+- "changelog" is shown in the mod details whenever it exists (open by default while status is "updated").
+- Big files (>50 MB): upload them to a GitHub Release and put the full release URL in "url",
+  optionally with "size": "80 MB".
+
 === 1. NORMAL MOD ===
 Used for standard mods.
 
@@ -11,6 +29,8 @@ Used for standard mods.
     "es": "Spanish Name"
   },
   "game": "Game Name",
+  "platform": "GBA",
+  "install": "rompatcher",
   "description": {
     "en": "English Description",
     "es": "Spanish Description"
@@ -29,6 +49,13 @@ Used for standard mods.
   },
   "thumbnail": "assets/mods/game-mod-name/thumbnail.png",
   "releaseDate": "YYYY-MM-DD",
+  "showcases": [
+    {
+      "type": "youtube",
+      "url": "https://youtu.be/VIDEO_ID",
+      "label": { "en": "Creator's video", "es": "Vídeo de Creator" }
+    }
+  ],
   "downloads": [
     {
       "version": "v1.0",
@@ -77,13 +104,14 @@ Add "status": "updated" and a "changelog" object.
 }
 
 === 4. TEASER MOD ===
-Mysterious, glowing card for upcoming mods. Has no downloads.
+"In the workshop" card for upcoming mods, shown above the catalog. Has no downloads.
 Add "status": "teaser" and a "teaserText" property. You only need a title and teaserText.
 
 {
   "id": "game-upcoming-mod",
   "status": "teaser",
   "name": { "en": "Secret Project", "es": "Proyecto Secreto" },
+  "platform": "PC",
   "teaserText": {
     "en": "Coming Late 2026",
     "es": "A Finales de 2026"

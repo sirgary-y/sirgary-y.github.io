@@ -1,123 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-root="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sir Gary's Mods</title>
-    <meta name="description" content="Sir Gary's Mods - A Curated Collection of Eldritch Modifications. Explore high-society gaming modifications for various videogames.">
-    <meta name="theme-color" content="#060b09">
+    <meta name="description" content="Sir Gary's Mods: challenge mods, randomizers and patches for Pokémon, Ratchet & Clank and more, made for content creators. Free downloads with install guides.">
+    <meta name="theme-color" content="#05060d">
+    <meta name="color-scheme" content="dark">
+    <link rel="canonical" href="https://sirgary-y.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sir Gary's Mods">
     <meta property="og:title" content="Sir Gary's Mods">
-    <meta property="og:description" content="A Curated Collection of Videogame Mods">
-    <meta property="og:image" content="https://sirgary-y.github.io/assets/favicon.png">
+    <meta property="og:description" content="Challenge mods, randomizers and patches for Pokémon, Ratchet & Clank and more.">
+    <meta property="og:image" content="https://sirgary-y.github.io/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://sirgary-y.github.io/">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <meta name="twitter:site" content="@SirGary_y">
+    <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="preload" href="assets/data/mods.json" as="fetch" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Marcellus&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/site.js" defer></script>
+    <script src="assets/js/mods.js" defer></script>
+    <script src="assets/js/fx.js" defer></script>
 </head>
-<body>
-    <div class="lovecraft-bg">
-        <div class="cosmic-web"></div>
-        <div class="eldritch-dust"></div>
-    </div>
-    
-    <header class="hero-banner">
-        <div class="container header-inner">
-            <div class="deco-ornament top-ornament"></div>
-            <h1 class="logo">Sir Gary's Mods</h1>
-            <p class="subtitle" data-i18n="nav.subtitle">A Curated Collection of Eldritch Modifications</p>
-            
-            <nav class="social-bar">
-                <a href="#" class="lang-btn" data-lang="en" style="font-size:1rem; font-family:'Montserrat', sans-serif; font-weight:600; display: flex; align-items: center; gap: 6px;">
-                    <img src="https://flagcdn.com/us.svg" alt="English" width="20" style="border-radius: 2px; box-shadow: 0 0 2px rgba(0,0,0,0.5); pointer-events: none;"> EN
-                </a>
-                <span class="social-divider" style="font-size:1rem; margin:0 5px;">/</span>
-                <a href="#" class="lang-btn" data-lang="es" style="font-size:1rem; font-family:'Montserrat', sans-serif; font-weight:600; display: flex; align-items: center; gap: 6px;">
-                    <img src="https://flagcdn.com/es.svg" alt="Español" width="20" style="border-radius: 2px; box-shadow: 0 0 2px rgba(0,0,0,0.5); pointer-events: none;"> ES
-                </a>
-                <span class="social-divider" style="margin-left:1rem;">|</span>
-                <a href="https://x.com/SirGary_y" title="Twitter" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
-                <a href="https://www.youtube.com/@SirGary" title="YouTube" aria-label="YouTube"><i class='bx bxl-youtube'></i></a>
-                <a href="https://www.twitch.tv/sirgary_twitch" title="Twitch" aria-label="Twitch"><i class='bx bxl-twitch'></i></a>
-                <a href="https://discord.gg/Sc4HSmn" title="Discord" aria-label="Discord"><i class='bx bxl-discord-alt'></i></a>
-                <span class="social-divider">|</span>
-                <a href="mailto:sir.garyp@gmail.com" class="contact-link"><i class='bx bx-envelope'></i> <span data-i18n="nav.contact">Contact</span></a>
-            </nav>
-            <div class="deco-ornament bottom-ornament"></div>
+<body data-page="home">
+    <a class="skip-link" href="#catalog" data-i18n="nav.skip">Skip to the mods</a>
+    <div class="backdrop" aria-hidden="true"></div>
+
+    <header id="site-nav" class="site-nav"></header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-cosmos" aria-hidden="true">
+                <div class="hero-glow"></div>
+                <div class="hero-sunburst"></div>
+                <img class="sigil sigil-outer" src="assets/sigil-outer.svg" alt="" width="780" height="780" decoding="async">
+                <img class="sigil sigil-inner" src="assets/sigil-inner.svg" alt="" width="468" height="468" decoding="async">
+                <span class="shooting-star"></span>
+                <span class="shooting-star"></span>
+            </div>
+            <div class="container hero-inner">
+                <div class="ornament" aria-hidden="true"><span></span></div>
+                <h1 class="logo">Sir Gary's <span>Mods</span></h1>
+                <p class="subtitle" data-i18n="nav.subtitle">A Curated Collection of my Videogame Mods</p>
+                <a class="hero-cta" href="#catalog"><span data-i18n="hero.cta">Browse the mods</span>
+                    <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#chevron-down"></use></svg></a>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="featured-mod" class="featured-wrap" hidden></section>
+
+            <section id="catalog" class="catalog" tabindex="-1">
+                <div class="section-head"><h2 data-i18n="catalog.title">The Collection</h2></div>
+                <div class="toolbar">
+                    <div class="field field-search">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#search"></use></svg>
+                        <input type="search" id="search-input" autocomplete="off" spellcheck="false"
+                            data-i18n-placeholder="search.placeholder" placeholder="Search mods, games or tags..."
+                            data-i18n-aria="search.placeholder" aria-label="Search mods">
+                        <button type="button" id="search-clear" class="icon-btn" hidden data-i18n-aria="search.clear" aria-label="Clear search">
+                            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"></use></svg>
+                        </button>
+                    </div>
+                    <label class="field field-select">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#gamepad"></use></svg>
+                        <span class="visually-hidden" data-i18n="filter.game">Game</span>
+                        <select id="game-filter"><option value="All" data-i18n="filter.allGames">All Games</option></select>
+                    </label>
+                    <label class="field field-select">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#sort"></use></svg>
+                        <span class="visually-hidden" data-i18n="sort.label">Sort</span>
+                        <select id="sort-order">
+                            <option value="newest" data-i18n="sort.newest">Release Date: Newest First</option>
+                            <option value="oldest" data-i18n="sort.oldest">Release Date: Oldest First</option>
+                            <option value="name-asc" data-i18n="sort.nameAsc">Name: A-Z</option>
+                            <option value="name-desc" data-i18n="sort.nameDesc">Name: Z-A</option>
+                        </select>
+                    </label>
+                    <label class="field field-select">
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#layers"></use></svg>
+                        <span class="visually-hidden" data-i18n="group.label">Group</span>
+                        <select id="group-by">
+                            <option value="none" data-i18n="group.none">No Grouping</option>
+                            <option value="game" data-i18n="group.game">Group by Game</option>
+                            <option value="year" data-i18n="group.year">Group by Year</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="toolbar-meta">
+                    <span id="result-count" class="result-count" aria-live="polite"></span>
+                    <button type="button" id="active-tag" class="chip" hidden></button>
+                    <button type="button" id="reset-filters" class="text-link" hidden data-i18n="filter.clear">Clear filters</button>
+                </div>
+
+                <div id="mods-grid" class="mods-grid">
+                    <div class="card skeleton" aria-hidden="true"></div>
+                    <div class="card skeleton" aria-hidden="true"></div>
+                    <div class="card skeleton" aria-hidden="true"></div>
+                </div>
+                <noscript><p class="empty">This site needs JavaScript to list the mods. / Esta web necesita JavaScript para mostrar los mods.</p></noscript>
+            </section>
         </div>
-    </header>
-    
-    <main class="container">
-        <!-- Terminology Reverted -->
-        <section class="controls-section deco-panel">
-            <div class="search-wrapper input-group">
-                <i class='bx bx-search search-icon'></i>
-                <input type="text" id="search-input" data-i18n="search.placeholder" placeholder="Search mods by name..." aria-label="Search mods">
-            </div>
-            
-            <div class="filters-wrapper">
-                <div class="input-group">
-                    <i class='bx bx-joystick filter-icon'></i>
-                    <select id="game-filter" aria-label="Filter by Game">
-                        <option value="All" data-i18n="filter.allGames">All Games</option>
-                    </select>
-                </div>
-                
-                <div class="input-group">
-                    <i class='bx bx-sort filter-icon'></i>
-                    <select id="sort-order" aria-label="Sort Orders">
-                        <option value="newest" data-i18n="sort.newest">Release Date: Newest First</option>
-                        <option value="oldest" data-i18n="sort.oldest">Release Date: Oldest First</option>
-                        <option value="name-asc" data-i18n="sort.nameAsc">Name: A-Z</option>
-                        <option value="name-desc" data-i18n="sort.nameDesc">Name: Z-A</option>
-                    </select>
-                </div>
-                
-                <div class="input-group">
-                    <i class='bx bx-layer filter-icon'></i>
-                    <select id="group-by" aria-label="Group By">
-                        <option value="none" data-i18n="group.none">No Grouping</option>
-                        <option value="game" data-i18n="group.game">Group by Game</option>
-                        <option value="year" data-i18n="group.year">Group by Year</option>
-                    </select>
-                </div>
-            </div>
-        </section>
-
-        <section id="featured-mod" aria-live="polite">
-            <!-- Featured mod injected here -->
-        </section>
-
-        <section id="mods-grid" class="mods-grid" aria-live="polite">
-            <div class="loading"><i class='bx bx-loader-alt bx-spin'></i> <span data-i18n="loading.msg">Loading artifacts...</span></div>
-        </section>
     </main>
 
-    <footer class="main-footer">
-        <div class="container footer-content deco-panel">
-            <div class="footer-brand">
-                <h3>Sir Gary</h3>
-                <p data-i18n="footer.brandSub">Establishing the gold standard for high-society gaming modifications.</p>
-            </div>
-            <div class="footer-links">
-                <h4 data-i18n="footer.info">Information</h4>
-                <ul>
-                    <li><a href="pages/about.html"><i class='bx bx-info-circle'></i> <span data-i18n="footer.about">The Creator</span></a></li>
-                    <li><a href="pages/faq.html"><i class='bx bx-question-mark'></i> <span data-i18n="footer.faq">Inquiries (FAQ)</span></a></li>
-                    <li><a href="pages/support.html"><i class='bx bx-support'></i> <span data-i18n="footer.support">Assistance</span></a></li>
-                    <li><a href="pages/terms.html"><i class='bx bx-file'></i> <span data-i18n="footer.terms">Conditions of Use</span></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p data-i18n="footer.copyright">&copy; 2026 Sir Gary. Masterfully Engineered in the Abyss.</p>
-        </div>
-    </footer>
+    <footer id="site-footer" class="site-footer"></footer>
 
-    <script src="assets/js/i18n.js" defer></script>
-    <script src="assets/js/script.js" defer></script>
+    <dialog id="mod-dialog" class="mod-dialog"></dialog>
 </body>
 </html>

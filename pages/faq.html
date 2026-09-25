@@ -1,35 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-root="../">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ | Sir Gary's Mods</title>
-    <meta name="description" content="Frequently Asked Questions about Sir Gary's video game modifications.">
-    <link rel="icon" href="../assets/favicon.png" type="image/png">
+    <meta name="description" content="Frequently asked questions about Sir Gary's mods: how to apply patches, install on Switch, racman and more.">
+    <meta name="theme-color" content="#05060d">
+    <meta name="color-scheme" content="dark">
+    <meta property="og:title" content="FAQ | Sir Gary's Mods">
+    <meta property="og:description" content="Frequently asked questions about Sir Gary's mods: how to apply patches, install on Switch, racman and more.">
+    <meta property="og:image" content="https://sirgary-y.github.io/assets/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="../assets/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Marcellus&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/site.js" defer></script>
 </head>
-<body>
-    <div class="lovecraft-bg"><div class="cosmic-web"></div><div class="eldritch-dust"></div></div>
-    
-    <header class="hero-banner">
-        <div class="container header-inner">
-            <h1 class="logo" data-i18n="footer.faq">Inquiries (FAQ)</h1>
-            <p class="subtitle">Frequently Asked Questions</p>
-        </div>
-    </header>
-    
-    <main class="container" style="padding-top: 3rem;">
-        <a href="../index.html" class="back-btn"><i class='bx bx-arrow-back'></i> <span data-i18n="btn.home">Return to Home</span></a>
-        <section class="page-content deco-panel">
-            <h2 data-i18n="faq.title">Inquiries</h2>
-            <div id="faq-content"></div>
+<body data-page="faq" data-title-key="footer.faq">
+    <div class="backdrop" aria-hidden="true"></div>
+
+    <header id="site-nav" class="site-nav"></header>
+
+    <main>
+        <section class="hero page-hero">
+            <div class="hero-cosmos" aria-hidden="true">
+                <div class="hero-glow"></div>
+                <div class="hero-sunburst"></div>
+                <img class="sigil sigil-outer" src="../assets/sigil-outer.svg" alt="" width="780" height="780" decoding="async">
+                <img class="sigil sigil-inner" src="../assets/sigil-inner.svg" alt="" width="468" height="468" decoding="async">
+                <span class="shooting-star"></span>
+                <span class="shooting-star"></span>
+            </div>
+            <div class="container hero-inner">
+                <div class="ornament" aria-hidden="true"><span></span></div>
+                <h1 class="logo" data-i18n="footer.faq">Inquiries (FAQ)</h1>
+                <p class="subtitle" data-i18n="faq.subtitle">Frequently Asked Questions</p>
+            </div>
         </section>
+
+        <div class="container page-main">
+            <a href="../index.html" class="back-btn"><svg class="icon" aria-hidden="true"><use href="../assets/icons.svg#arrow-left"></use></svg><span data-i18n="btn.home">Return to Home</span></a>
+            <section class="page-content">
+                <h2 data-i18n="faq.title">Inquiries</h2>
+                <div id="page-content"></div>
+            </section>
+        </div>
     </main>
 
-    <script src="../assets/js/i18n.js"></script>
+    <footer id="site-footer" class="site-footer"></footer>
 </body>
 </html>

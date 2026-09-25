@@ -1,7 +1,7 @@
 {
     "nav.subtitle": "Una Colección Selecta de Mis Mods de Videojuegos",
     "nav.contact": "Contacto",
-    "search.placeholder": "Buscar mods por nombre...",
+    "search.placeholder": "Buscar mods, juegos o etiquetas...",
     "filter.allGames": "Todos los Juegos",
     "sort.newest": "Fecha de Lanzamiento: Más Recientes",
     "sort.oldest": "Fecha de Lanzamiento: Más Antiguos",
@@ -33,26 +33,32 @@
     "faq.title": "Consultas",
     "faq.items": [
         {
+            "id": "bugs",
             "q": "P: ¿Qué hago si encuentro un bug?",
             "a": "R: Ante cualquier bug puedes escribirme por Twitter, correo o Discord."
         },
         {
+            "id": "requests",
             "q": "P: ¿Aceptan peticiones?",
             "a": "R: Sí, mándame un mensaje y consideraré la idea y su complejidad."
         },
         {
+            "id": "rompatcher",
             "q": "P: ¿Cómo aplico el parche de un mod de Pokémon?",
             "a": "R: Puedes aplicarlo en <a href=\"https://www.marcrobledo.com/RomPatcher.js/\" target=\"_blank\"><strong>RomPatcher.js</strong></a>. Ten en cuenta que debes usar una ROM de tu propiedad cuyo sha1 coincida con la versión para la que el mod fue diseñado. Si el juego está en inglés la ROM debe ser la de USA, si está completamente en Español será la de ESP."
         },
         {
+            "id": "switch",
             "q": "P: ¿Cómo uso un mod de Pokémon en Switch?",
             "a": "R: Simplemente debes copiar la carpeta con el nombre del mod en la carpeta correspondiente a los mods de tu rom adquirida legalmente en caso de usar emulador, o en tu entorno de Switch en caso de usar la consola."
         },
         {
+            "id": "racman",
             "q": "P: ¿Cómo aplico el parche de un mod de Ratchet & Clank?",
             "a": "R: Para aplicar los mods de Ratchet & Clank necesitarás descargar <a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\"><strong>racman</strong> </a> y seguir sus instrucciones para poder usarlo con tu ROM legalmente adquirida de la colección HD de PS3, tanto si los quieres jugar en una PS3 como en el emulador RPCS3. Una vez lo tengas configurado, arrastra la carpeta de mi mod dentro de la carpeta <code>mods</code> de racman en el juego que corresponda. <code>NPEA00385</code> es Ratchet & Clank 1, <code>NPEA00386</code> es Ratchet & Clank 2, <code>NPEA00387</code> es Ratchet & Clank 3 y <code>NPEA00423</code> es Ratchet Gladiator."
         },
         {
+            "id": "deltapatcher",
             "q": "P: ¿Cómo aplico el parche de un mod de Deltarune?",
             "a": "R: Para aplicar los mods de Deltarune necesitarás descargar el programa <a href=\"https://www.romhacking.net/utilities/704/\" target=\"_blank\"><strong>DeltaPatcher</strong></a> y aplicar el parche <code>.xdelta</code> del mod al archivo <code>data.win</code> del capítulo correspondiente. Los archivos <code>data.win</code> de cada capítulo suelen estar en <code>C:\\Program Files (x86)\\Steam\\steamapps\\common\\DELTARUNE</code>."
         }
@@ -64,5 +70,68 @@
     "terms.title": "Condiciones de Uso",
     "terms.paragraphs": [
         "No me hago cargo de cualquier problema o el uso indebido de estos mods. Los parches deben ser aplicados sobre una copia de seguridad o los propios juegos adquiridos de manera legal y legítima."
-    ]
+    ],
+    "nav.mods": "Mods",
+    "nav.faq": "FAQ",
+    "nav.about": "Sobre mí",
+    "nav.skip": "Saltar a los mods",
+    "nav.lang": "Idioma",
+    "hero.cta": "Ver los mods",
+    "search.clear": "Borrar búsqueda",
+    "filter.game": "Juego",
+    "sort.label": "Orden",
+    "group.label": "Agrupar",
+    "filter.clear": "Quitar filtros",
+    "results.count": "{n} mods",
+    "results.one": "1 mod",
+    "teaser.label": "En el taller",
+    "card.details": "Detalles y descarga",
+    "card.video": "Ver vídeo",
+    "dialog.close": "Cerrar",
+    "dialog.downloads": "Descargas",
+    "dialog.showcase": "Míralo en acción",
+    "dialog.howto": "Cómo instalar",
+    "dialog.share": "Copiar enlace",
+    "dialog.copied": "¡Copiado!",
+    "dialog.copy": "Copiar sha1",
+    "dialog.released": "Publicado",
+    "dialog.platform": "Plataforma",
+    "dialog.patchnotes": "Notas del parche",
+    "dialog.fullGuide": "Guía completa en el FAQ",
+    "dialog.tbd": "Por anunciar",
+    "lang.en": "Inglés",
+    "lang.es": "Español",
+    "install.rompatcher": [
+        "Descarga el parche y descomprímelo si viene en .rar (7-Zip o WinRAR).",
+        "Usa tu propia ROM obtenida legalmente y comprueba que su sha1 coincide con el indicado arriba.",
+        "Abre <a href=\"https://www.marcrobledo.com/RomPatcher.js/\" target=\"_blank\" rel=\"noopener\">RomPatcher.js</a>, elige tu ROM y el archivo del parche y pulsa <strong>Apply patch</strong>.",
+        "Juega la ROM parcheada en tu emulador o flashcart."
+    ],
+    "install.switch": [
+        "Descarga todas las partes del mod y descomprímelas.",
+        "Emulador: copia la carpeta del mod en la carpeta de mods de tu copia del juego adquirida legalmente.",
+        "Consola: copia la carpeta del mod en el entorno de mods de tu Switch.",
+        "Revisa los requisitos de arriba: el mod necesita esa versión exacta del juego."
+    ],
+    "install.racman": [
+        "Descarga <a href=\"https://github.com/MichaelRelaxen/racman\" target=\"_blank\" rel=\"noopener\">racman</a> y configúralo siguiendo sus instrucciones (PS3 o RPCS3).",
+        "Descomprime el mod y arrastra su carpeta a la carpeta <code>mods</code> de racman del juego que corresponda (<code>NPEA00385</code> es Ratchet & Clank 1).",
+        "Inicia el juego con racman conectado."
+    ],
+    "install.deltapatcher": [
+        "Descarga <a href=\"https://www.romhacking.net/utilities/704/\" target=\"_blank\" rel=\"noopener\">DeltaPatcher</a>.",
+        "Aplica el parche <code>.xdelta</code> al archivo <code>data.win</code> del capítulo correspondiente."
+    ],
+    "about.subtitle": "Sobre Sir Gary",
+    "faq.subtitle": "Preguntas Frecuentes",
+    "support.subtitle": "Canal de Soporte",
+    "terms.subtitle": "Términos del Servicio",
+    "support.contactTitle": "Dónde encontrarme",
+    "footer.follow": "Sígueme",
+    "noscript": "Esta web necesita JavaScript para mostrar los mods.",
+    "badge.important": "IMPORTANTE",
+    "about.title": "Aristocracia en la Modificación",
+    "card.file": "1 archivo",
+    "card.files": "{n} archivos",
+    "catalog.title": "La Colección"
 }

@@ -6,13 +6,13 @@
       "en": "DeltaRune FreedomCam",
       "es": "DeltaRune FreedomCam"
     },
+    "platform": "PC",
     "teaserText": {
       "en": "In Development",
       "es": "En Desarrollo"
     },
     "releaseDate": "2026"
   },
-
   {
     "id": "pokemon-mdred-floorraandomizer",
     "status": "new",
@@ -22,6 +22,8 @@
       "es": "Pokémon Mundo Misterioso, pero tu Equipo se Randomiza en cada Piso"
     },
     "game": "Pokémon Mystery Dungeon",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "A randomizer for PMD Red Rescue Team in which your Pokémon change every time you change floors.<br>Made for the YouTuber Jotacanario.",
       "es": "Un randomizador para Pokémon Mundo Misterioso Equipo de Rescate Rojo en el que tus Pokémon cambian cada vez que cambias de piso.<br>Creado para el PokéTuber Jotacanario."
@@ -64,11 +66,10 @@
       {
         "version": "GBA",
         "url": "assets/mods/pokemon-mdred-floorraandomizer/PMDRed_FloorRandomizer1.0.bps",
-        "lang": "eng"
+        "lang": "en"
       }
     ]
   },
-  
   {
     "id": "pokemon-hgss-hitrandomizer",
     "name": {
@@ -76,6 +77,8 @@
       "es": "Pokémon, pero se Randomizan con Cada Golpe"
     },
     "game": "Pokémon HeartGold/SoulSilver",
+    "platform": "NDS",
+    "install": "rompatcher",
     "description": {
       "en": "A randomizer for HGSS in which your Pokémon change every time they take damage. There is a version which also randomizes the moves.<br>Made for the Pokétuber Capitán Pokémon.",
       "es": "Un randomizador para HGSS en el que tus Pokémon cambian cada vez que sufren daño. Hay una versión que también randomiza los movimientos.<br>Creado para el PokéTuber Capitán Pokémon."
@@ -144,6 +147,8 @@
       "es": "Pokémon Eggmerald"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "Wild Pokémon are random eggs that only display the type of the Pokémon that will hatch from them, and their color pallete.<br>Made for the Pokétuber Andros.",
       "es": "Los Pokémon salvajes son huevos aleatorios que solo muestran el tipo de Pokémon que nacerá de ellos, y su paleta de colores.<br>Creado para el PokéTuber Andros."
@@ -197,6 +202,8 @@
       "es": "Batallas Pokémon de Ash"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "Fight against Ash's teams from each season of the anime.<br>Made for the Pokétuber Boshtok.",
       "es": "Pelea contra los equipos de Ash de cada temporada del anime.<br>Creado para el PokéTuber Boshtok."
@@ -255,6 +262,8 @@
       "es": "Pokémon, pero Cambian de Tipo con Cada Golpe"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "All Pokémon have the extra ability Color Change, making them change to the type of the last attack received.<br>Made for the PokéTuber PokéCarlengues.",
       "es": "Todos los Pokémon tienen de habilidad extra Cambio de Color, haciendo que cambien al tipo del último ataque recibido.<br>Creado para el PokéTuber PokéCarlengues."
@@ -307,6 +316,8 @@
       "es": "Pokémon Ruleta Rusa"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "Every time a trainer is defeated, a random Pokémon from your team disappears.<br>Made for the PokéTuber KodiDre.",
       "es": "Cada vez que un entrenador es derrotado, un Pokémon aleatorio de tu equipo desaparece.<br>Creado para el PokéTuber KodiDre."
@@ -359,6 +370,8 @@
       "es": "Cámara Libre en Pokémon Platino"
     },
     "game": "Pokémon Platinum",
+    "platform": "NDS",
+    "install": "rompatcher",
     "description": {
       "en": "A simple mod to unlock the camera in Pokémon Platinum, allowing you to explore the Sinnoh region from any angle.",
       "es": "Un simple mod para desbloquear la cámara en Pokémon Platino, permitiéndote explorar la región de Sinnoh desde cualquier ángulo."
@@ -410,6 +423,8 @@
       "es": "Pokémon Esmeralda Autobattler"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "In this mod the Pokémon will fight by themselves choosing moves depending on their nature, following the rules of the Battle Palace. Created for the PokéTuber Andros.",
       "es": "En este mod los Pokémon lucharán por sí mismos eligiendo movimientos dependiendo de su naturaleza, siguiendo las reglas del Palacio Batalla. Creado para el PokéTuber Andros."
@@ -461,6 +476,8 @@
       "es": "Cámara Libre en Pokémon Esmeralda"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "A simple mod to unlock the camera in Pokémon Emerald, allowing you to explore the Hoenn region from any angle.",
       "es": "Un simple mod para desbloquear la cámara en Pokémon Esmeralda, permitiéndote explorar la región de Hoenn desde cualquier ángulo."
@@ -512,6 +529,8 @@
       "es": "Comprar Pokémon en Esmeralda"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "The only way to get Pokémon is to buy them in stores.",
       "es": "La única manera de conseguir Pokémon es comprándolos en las tiendas."
@@ -556,6 +575,8 @@
       "es": "Robar Pokemon en Esmeralda"
     },
     "game": "Pokémon Emerald",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "Every time you defeat a trainer, your team swaps with theirs.<br>Developed for PokéTuber Karimero.",
       "es": "Cada vez que derrotas a un entrenador, tu equipo se intercambia por el suyo.<br>Desarrollado para el PokéTuber Karimero."
@@ -608,6 +629,8 @@
       "es": "Xamorklocke en Diamante Brillante"
     },
     "game": "Pokémon Brilliant Diamond/Shining Pearl",
+    "platform": "Switch",
+    "install": "switch",
     "description": {
       "en": "Custom ROM with several mods for the Xamorklocke challenge by PokéTuber Xamork. Includes increased difficulty with improved teams, Pokémon randomizer, removed experience sharing, removed friendship effects, new textures, new Pokémon, new animations, realistic sizes...<br>Created for the PokéTuber Xamork.",
       "es": "ROM custom con varios mods para el reto Xamorlocke. Incluye una mayor dificultad con equipos mejorados, randomizado de Pokémon, quitado el repartir experiencia, quitados los efectos de la amistad, nuevas texturas, nuevos Pokémon, nuevas animaciones, tamaños realistas...<br>Creado para el PokéTuber Xamork."
@@ -675,6 +698,8 @@
       "es": "Randomizer en Diamante Brillante y Perla Reluciente"
     },
     "game": "Pokémon Brilliant Diamond/Shining Pearl",
+    "platform": "Switch",
+    "install": "switch",
     "description": {
       "en": "Probably one of the first randomizers for Pokémon BDSP.",
       "es": "Probablemente uno de los primeros randomizadores de Pokémon BDSP."
@@ -705,6 +730,8 @@
       "es": "Pokémon Diamante Brillante y Perla Reluciente pero no Ganan Experiencia"
     },
     "game": "Pokémon Brilliant Diamond/Shining Pearl",
+    "platform": "Switch",
+    "install": "switch",
     "description": {
       "en": "Pokémon Brilliant Diamond and Shining Pearl but your Pokémon don't gain Experience. (They actually gain 1 point lol)",
       "es": "Pokémon Diamante Brillante y Perla Reluciente pero tus Pokémon no ganan Experiencia. (Realmente ganan 1 punto lol)"
@@ -738,6 +765,8 @@
       "es": "Pokémon Siempre Envenenados en Rojo Fuego y Verde Hoja"
     },
     "game": "Pokémon FireRed/LeafGreen",
+    "platform": "GBA",
+    "install": "rompatcher",
     "description": {
       "en": "In this challenge, your Pokémon will always be poisoned, losing health every few steps and in every battle. After the fourth badge, Pokémon will become badly poisoned.",
       "es": "En este reto tus Pokémon siempre estarán envenenados, perdiendo vida cada pocos pasos y en todos los combates. A partir de la cuarta medalla el envenenamiento será grave."
@@ -770,6 +799,8 @@
       "es": "Ratchet & Clank 1, pero Ratchet es Pequeño"
     },
     "game": "Ratchet & Clank",
+    "platform": "PS3",
+    "install": "racman",
     "description": {
       "en": "Ratchet has 10% his size and dies in one hit. For the PS3 version of the game.",
       "es": "Ratchet tiene un 10% de su tamaño y muere de un solo golpe. Para la versión de PS3 del juego."
@@ -804,6 +835,8 @@
       "es": "Temporizador de Guitones en Ratchet & Clank 1"
     },
     "game": "Ratchet & Clank",
+    "platform": "PS3",
+    "install": "racman",
     "description": {
       "en": "You lose bolts every second and if they reach 0, Ratchet dies. For the PS3 version of the game.",
       "es": "Pierdes guitones cada segundo y si llegan a 0, Ratchet muere. Para la versión de PS3 del juego."

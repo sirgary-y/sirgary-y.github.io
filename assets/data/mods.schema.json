@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Sir Gary's Mods catalog",
+  "description": "List of mods shown on the site. See assets/data/templates.txt for copy-paste templates.",
+  "type": "array",
+  "items": { "$ref": "#/definitions/mod" },
+  "definitions": {
+    "text": {
+      "description": "Text in every site language. Simple HTML such as <br> is allowed.",
+      "type": "object",
+      "properties": { "en": { "type": "string" }, "es": { "type": "string" } },
+      "required": ["en", "es"],
+      "additionalProperties": false
+    },
+    "mod": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique id, also the link anchor: sirgary-y.github.io/#<id>" },
+        "status": { "enum": ["new", "updated", "teaser"], "description": "new = NEW! badge, updated = UPDATED! badge + patch notes open, teaser = 'In the workshop' card" },
+        "featured": { "type": "boolean", "description": "Show as the big banner at the top. Only one mod should be featured." },
+        "hidden": { "type": "boolean", "description": "Keep in the file but don't show it on the site." },
+        "name": { "$ref": "#/definitions/text" },
+        "game": { "type": "string", "description": "Game name, used by the game filter and grouping." },
+        "platform": { "enum": ["GBA", "NDS", "3DS", "Switch", "PS3", "PC"], "description": "Shown on the card thumbnail." },
+        "install": { "enum": ["rompatcher", "switch", "racman", "deltapatcher"], "description": "Which install guide to show in the mod details (texts in the locale files)." },
+        "description": { "$ref": "#/definitions/text" },
+        "tags": {
+          "type": "object",
+          "description": "Same tags in the same order for every language.",
+          "properties": {
+            "en": { "type": "array", "items": { "type": "string" } },
+            "es": { "type": "array", "items": { "type": "string" } }
+          },
+          "required": ["en", "es"]
+        },
+        "thumbnail": { "type": "string", "description": "assets/mods/<id>/thumbnail.png|jpg. Run tools/build_images.py to create the optimized .webp." },
+        "releaseDate": { "type": "string", "pattern": "^(\\d{4}(-\\d{2}-\\d{2})?|TBD)$", "description": "YYYY-MM-DD, YYYY or TBD" },
+        "warningLabel": { "$ref": "#/definitions/text" },
+        "warning": { "$ref": "#/definitions/text", "description": "Base ROM / requirements. Any 'sha1: <hash>' gets a copy button." },
+        "changelog": { "$ref": "#/definitions/text" },
+        "teaserText": { "$ref": "#/definitions/text" },
+        "showcases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["type", "url", "label"],
+            "properties": {
+              "type": { "enum": ["youtube", "video", "twitch", "twitter", "link"] },
+              "url": { "type": "string", "format": "uri" },
+              "label": { "$ref": "#/definitions/text" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "downloads": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["version", "url"],
+            "properties": {
+              "version": { "type": "string", "description": "Button label, e.g. 'GBA' or 'HeartGold'." },
+              "url": { "type": "string", "description": "Path inside the repo or a full URL (e.g. a GitHub Release asset)." },
+              "lang": { "enum": ["en", "es"], "description": "Language of this download (shows a flag)." },
+              "size": { "type": "string", "description": "Optional, e.g. '80 MB'. Only needed for external URLs; local file sizes are detected automatically." }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
