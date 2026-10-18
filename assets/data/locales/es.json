@@ -1,5 +1,5 @@
 {
-    "nav.subtitle": "Una Colección Selecta de Mis Mods de Videojuegos",
+    "nav.subtitle": "Una Colección de Mis Mods de Videojuegos",
     "nav.contact": "Contacto",
     "search.placeholder": "Buscar mods, juegos o etiquetas...",
     "filter.allGames": "Todos los Juegos",
@@ -11,7 +11,7 @@
     "group.game": "Agrupar por Juego",
     "group.year": "Agrupar por Año",
     "loading.msg": "Cargando mods...",
-    "no.results": "No se desenterraron mods que coincidan con sus criterios.",
+    "no.results": "No se invocaron mods que coincidan con sus criterios.",
     "no.fetch": "Los mods deben de estar durmiendo. Por favor, inténtelo de nuevo más tarde.",
     "btn.download": "Descargar",
     "btn.patchnotes": "Ver Notas del Parche",
@@ -40,7 +40,7 @@
         {
             "id": "requests",
             "q": "P: ¿Aceptan peticiones?",
-            "a": "R: Sí, mándame un mensaje y consideraré la idea y su complejidad."
+            "a": "R: Sí, mándame un mensaje por Twitter o Discord y consideraré la idea y su complejidad."
         },
         {
             "id": "rompatcher",

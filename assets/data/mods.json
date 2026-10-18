@@ -1,5 +1,67 @@
 [
   {
+    "id": "pokemon-platinum-1vs2",
+    "status": "new",
+    "featured": true,
+    "name": {
+      "en": "Pokémon, but Every Battle is 1 vs 2",
+      "es": "Pokémon, pero todas las peleas son 1 vs 2"
+    },
+    "game": "Pokémon Platinum",
+    "platform": "NDS",
+    "install": "rompatcher",
+    "description": {
+      "en": "A mod for Platinum in which every trainer battle is a 1 vs 2.",
+      "es": "Un mod para Platino en el que cada batalla del entrenador es un 1 vs 2."
+    },
+    "tags": {
+      "en": [
+        "Gameplay",
+        "Pokémon",
+        "Challenge",
+        "Difficulty"
+      ],
+      "es": [
+        "Gameplay",
+        "Pokémon",
+        "Reto",
+        "Dificultad"
+      ]
+    },
+    "thumbnail": "assets/mods/pokemon-platinum-1vs2/thumbnail.jpg",
+    "releaseDate": "2026-10-18",
+    "warningLabel": {
+      "en": "BASE ROMS",
+      "es": "ROMS BASE"
+    },
+    "warning": {
+      "en": "Platinum USA. sha1: ce81046eda7d232513069519cb2085349896dec7.",
+      "es": "Platinum USA. sha1: ce81046eda7d232513069519cb2085349896dec7."
+    },
+    "showcases": [
+      {
+        "type": "twitter",
+        "url": "https://youtu.be/PB_zv1ty4Z4",
+        "label": {
+          "en": "Demo",
+          "es": "Demo"
+        }
+      }
+    ],
+    "downloads": [
+      {
+        "version": "Platinum",
+        "url": "assets/mods/pokemon-platinum-1vs2/PokePlatinum_1vs2_1.0_ESP.bps",
+        "lang": "es"
+      },
+      {
+        "version": "Platinum",
+        "url": "assets/mods/pokemon-platinum-1vs2/PokePlatinum_1vs2_1.0_ENG.bps",
+        "lang": "en"
+      }
+    ]
+  },
+  {
     "id": "deltarune-freedomcam-teaser",
     "status": "teaser",
     "name": {
@@ -15,8 +77,6 @@
   },
   {
     "id": "pokemon-mdred-floorraandomizer",
-    "status": "new",
-    "featured": true,
     "name": {
       "en": "Pokémon Mystery Dungeon, but Your Team Gets Randomized Every Floor",
       "es": "Pokémon Mundo Misterioso, pero tu Equipo se Randomiza en cada Piso"
